@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<title>卧龙腾飞-联系我们</title>
+<style>
+.xs{
+  display: none;
+    background:rgba(0,0,0,.5);
+    overflow: hidden;
+}
+</style>
+<block name="include">
+	<include file="default:public/header"/>
+</block>
+
+<div class="fh5co-loader"></div>
+<div>
+	<block name="include">
+		<include file="default:public/nav"/>
+	</block>
+</div>
+<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(/Public/images/banner/callme.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>联系我们</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	 <!-- 联系我们 -->
+    <div class="lxwm col-xs-12 animate-box cul_map" id="callUs" data-animate-effect="fadeIn">
+        <h2 class="text-center btn-info">联系我们</h2>
+        <p style="margin-left: 30%">公司地址:中国南阳卧龙跨境电子商务产业园12号楼6层(公交：k8)</p>
+        <p style="margin-left: 30%;">公司电话:0377-66086800</p>
+        <p style="margin-left: 30%;">邮编：473000</p>
+        <p style="margin-left: 30%;">邮箱：敬请期待。</p>
+        <p style="margin-left: 30%;">卧龙腾飞官网网址：www.china-wolong.com</p>
+        <p style="margin-left: 30%;">一带一路官网网址：www.china-wolomg.club</p>
+        <div class="qr" style="text-align: center;">
+          <img src="/Public/images/wltfQR.jpg" style="width: 20%;">
+          <p>微信公众号请扫描上方二维码↑</p>
+        </div>
+        <div class="col-xs-8 col-xs-push-2 clearfix">
+
+            <div class="tel" style="height: 500px;">
+                <div id="container">
+                    <!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>设置点的弹跳效果</title>
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script src="http://webapi.amap.com/maps?v=1.3&key=您申请的key值"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+</head>
+<body>
+                <div id="container"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- map -->
+<script>
+    var map = new AMap.Map('container', {
+        resizeEnable: true,
+        center: [112.450275,33.033156],
+        zoom: 13
+    });
+    var marker = new AMap.Marker({
+        position: map.getCenter(),
+        draggable: true,
+        cursor: 'move'
+    });
+    marker.setMap(map);
+    // 设置点标记的动画效果，此处为弹跳效果
+    marker.setAnimation('AMAP_ANIMATION_BOUNCE');
+</script>
+</body>
+</html>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="ds y" style="position: absolute;top: 0;left: 0;width: 100%;z-index: 9999;">
+        <button class="glyphicon glyphicon-th-list anniu" style="padding: 5px;"></button>
+        <div class="xs" id="fade" style="width: 80px;">
+        <ul class="ej-nav" style="line-height: 30px;">
+            <li>
+                <a href="/index.php/home/index/index.html" style="color: #fff;">首页</a>
+            </li>
+            <li>
+                <a href="/index.php/home/introduce/index.html" style="color: #fff;">集团介绍</a>
+            </li>
+            <li class="has-dropdown">
+                <a href="/index.php/home/industry/index.html" style="color: #fff;">公司产业</a>
+                <ul class="dropdown" style="display: none;">
+                  <li><a href="#">智能科技</a></li>
+                  <li><a href="#">中医药基地</a></li>
+                  <li><a href="#">兔尔宝娱乐</a></li>
+                  <li><a href="#">尚惠商城</a></li>
+                </ul>
+            </li>
+            <li class="has-dropdown">
+                <a href="/index.php/home/news/index.html" style="color: #fff;">新闻中心</a>
+                <ul class="dropdown" aria-labelledby="dropdownMenuDivider" style="display: none;">
+                    <li><a href="http://www.ntdaily.com.cn/2017/qiye_0524/14955890107198.html">苏南网</a></li>
+                    <li><a href="http://www.citure.net/info/2017524/201752494912.shtml">中国城市文化网</a></li>
+                    <li><a href="http://fz.comnews.cn/yangquan/2017/4_0524/19103.html">中国商务新闻网</a></li>
+                    <hr/>
+                    <li><a href="{:U('home/news/companyinformation')}">更多企业信息>></a></li>
+                </ul>
+            </li>
+           <li class="has-dropdown">
+                <a href="/index.php/home/industry/index.html" style="color: #fff;">企业文化</a>
+                <ul class="dropdown" style="display: none;">
+                  <li><a href="{:U('home/company/corporatestyle')}">企业风采</a></li>
+                  <li><a href="{:U('home/index/download_courseware')}">企业课件</a></li>
+                  <li><a href="{:U('home/company/video')}">企业视频</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/index.php/home/careers/index.html" style="color: #fff;">人才招聘</a>
+            </li>
+            <li class="has-dropdown">
+                <a href="/index.php/home/partner/index.html" style="color: #fff;">合作单位</a>
+                <ul class="dropdown"  style="min-width:250px;display: none;">
+                    <li><a href="http://www.turboet.com/" target="_blank">江苏兔尔宝文化发展有限公司</a></li>
+                    <li><a href="http://www.sh-life.com" target="_blank">安徽尚惠生活商业运营管理有限公司 </a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    </div>
+<block name="include"><include file="default:public/footer"/></block>
+
+<!-- map -->
+<!-- <script src="http://webapi.amap.com/maps?v=1.3&key=a792353461ed6cdb0fba8fab6d11d320"></script>
+<script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script> -->
+	<script>
+    var oUl = $('.menu-1').children('ul'),
+        aLi = oUl.children('li');
+    aLi.eq(7).addClass('active').siblings().removeClass('active');
+</script>
+
+    <script>
+    var i=0;
+    $(".anniu").click(function(){
+        if(i === 0) {
+            $("#fade").show(1000);
+            i++;
+        }else{
+            $("#fade").hide(1000);
+            i--;
+        }
+  })
+</script>
+<!-- map -->
+<!-- <script>
+var callUs = $('#callUs');
+if(callUs.length !== 0){
+
+    var map = new AMap.Map('container', {
+        resizeEnable: true,
+        center: [112.450275,33.033156],
+        zoom: 13
+    });
+    var marker = new AMap.Marker({
+        position: map.getCenter(),
+        draggable: true,
+        cursor: 'move'
+    });
+    marker.setMap(map);
+    // 设置点标记的动画效果，此处为弹跳效果
+    marker.setAnimation('AMAP_ANIMATION_BOUNCE');
+
+}
+    
+</script> -->

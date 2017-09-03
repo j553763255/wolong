@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<title>卧龙腾飞-企业风采</title>
+<style>
+.xs{
+  display: none;
+    background:rgba(0,0,0,.5);
+    overflow: hidden;
+}
+</style>
+<block name="include">
+	<include file="default:public/header"/>
+</block>
+
+<div class="fh5co-loader"></div>
+<div>
+	<block name="include">
+		<include file="default:public/nav"/>
+	</block>
+</div>
+<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(/Public/images/newsBcg.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>企业视频</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</header>
+<!-- 视频 -->
+<div class="container" style="margin-bottom: 50px;">
+  <h1 style="text-align: center;font-size: 100px;">开业大典</h1>
+  <video src="/Public/video/kydd.mp4" controls="controls" style="width: 100%;"></video>
+</div>
+<div class="ds y" style="position: absolute;top: 0;left: 0;width: 100%;z-index: 9999;">
+  <button class="glyphicon glyphicon-th-list anniu" style="padding: 5px;"></button>
+  <div class="xs" id="fade" style="width: 80px;">
+   <ul class="ej-nav" style="line-height: 30px;">
+          <li>
+              <a href="/index.php/home/index/index.html" style="color: #fff;">首页</a>
+          </li>
+          <li>
+              <a href="/index.php/home/introduce/index.html" style="color: #fff;">集团介绍</a>
+          </li>
+          <li class="has-dropdown">
+                <a href="/index.php/home/industry/index.html" style="color: #fff;">公司产业</a>
+                <ul class="dropdown" style="display: none;">
+                  <li><a href="#">智能科技</a></li>
+                  <li><a href="#">中医药基地</a></li>
+                  <li><a href="#">兔尔宝娱乐</a></li>
+                  <li><a href="#">尚惠商城</a></li>
+                </ul>
+            </li>
+            <li class="has-dropdown">
+                <a href="/index.php/home/news/index.html" style="color: #fff;">新闻中心</a>
+                <ul class="dropdown" aria-labelledby="dropdownMenuDivider" style="display: none;">
+                    <li><a href="http://www.ntdaily.com.cn/2017/qiye_0524/14955890107198.html">苏南网</a></li>
+                    <li><a href="http://www.citure.net/info/2017524/201752494912.shtml">中国城市文化网</a></li>
+                    <li><a href="http://fz.comnews.cn/yangquan/2017/4_0524/19103.html">中国商务新闻网</a></li>
+                    <hr/>
+                    <li><a href="{:U('home/news/companyinformation')}">更多企业信息>></a></li>
+                </ul>
+            </li>
+            <li class="has-dropdown">
+                <a href="/index.php/home/industry/index.html" style="color: #fff;">企业文化</a>
+                <ul class="dropdown" style="display: none;">
+                  <li><a href="{:U('home/company/corporatestyle')}">企业风采</a></li>
+                  <li><a href="{:U('home/index/download_courseware')}">企业课件</a></li>
+                  <li><a href="{:U('home/company/video')}">企业视频</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/index.php/home/careers/index.html" style="color: #fff;">人才招聘</a>
+            </li>
+            <li class="has-dropdown">
+                <a href="/index.php/home/partner/index.html" style="color: #fff;">合作单位</a>
+                <ul class="dropdown"  style="min-width:250px;display: none;">
+                    <li><a href="http://www.turboet.com/" target="_blank">江苏兔尔宝文化发展有限公司</a></li>
+                    <li><a href="http://www.sh-life.com" target="_blank">安徽尚惠生活商业运营管理有限公司 </a></li>
+                </ul>
+            </li>
+          <li>
+              <a href="/index.php/home/call/call.html" style="color: #fff;">联系我们</a>
+          </li>
+      </ul>
+</div>
+</div>
+<block name="include"><include file="default:public/footer"/></block>
+<!-- 小窗口导航 -->
+  <script>
+    var i=0;
+    $(".anniu").click(function(){
+      if(i === 0) {
+        $("#fade").show(1000);
+        i++;
+      }else{
+        $("#fade").hide(1000);
+        i--;
+      }
+  })
+</script>
+<!-- 大窗口导航点击变色-->
+<script>
+    var oUl = $('.menu-1').children('ul'),
+        aLi = oUl.children('li');
+    aLi.eq(4).addClass('active').siblings().removeClass('active');
+</script>
