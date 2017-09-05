@@ -1,0 +1,296 @@
+html, body, div, span, hr, h1, h2, h3, h4, h5, h6, p, pre, a, em, img, small, strong, sub, sup, b, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tfoot, thead, tr, th, td, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+img, a, ul li {
+    vertical-align: top;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+form, input, button, textarea {
+    outline: none;
+    resize: none;
+    border: none;
+}
+
+html {
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: '微软雅黑', 'Microsoft YaHei', '宋体', Arial;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header_top {
+    height: 16px;
+    background: #fdbd00;
+    line-height: 16px;
+    z-index: 999;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.header_top p span {
+    width: auto;
+    height: 16px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.logo {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 16px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.heading {
+    margin-top: 20px;
+    color: #004585;
+}
+
+.search-action {
+    padding-bottom: 10px;
+    float: right;
+}
+
+.nav_top {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: auto;
+    background-color: #fdbd00;
+    width: 90%;
+}
+
+.nav_top a {
+    color: #000;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.nav_top .col-xs-1 {
+    padding: 0;
+}
+
+.swiper-container {
+    width: 90%;
+    height: 400px;
+}
+
+.main {
+    min-height: 50px;
+    width: 90%;
+    margin: 30px auto;
+    background: #fafafa;
+    border-top: 0 solid #eee;
+}
+
+.main .row {
+    box-shadow: 0 0 10px #000;
+}
+
+.left_top {
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 2px solid #e5e5e5;
+    background: #fff;
+    margin: 10px 0 15px 0;
+}
+
+.topline {
+    height: 3px;
+    background-color: #004585;
+}
+
+.two {
+    height: 260px;
+}
+
+.two img {
+    width: 300px;
+    height: 200px;
+}
+
+.nav-tabs {
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.tab-content {
+    line-height: 35px;
+    font-size: 10px;
+}
+
+.tab-content a {
+    color: #000;
+}
+
+.tab-content span {
+    float: right;
+}
+
+.more a {
+    float: right;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 50px;
+    padding: 0;
+    margin-top: -30px;
+}
+
+.words {
+    margin: 10px 0 15px 0;
+}
+
+.words_top {
+    height: 64px;
+    border-bottom: 1px solid #ccc;
+}
+
+.words_top .words_topline {
+    background-color: #fdbd00;
+    height: 3px;
+}
+
+.words_top .glyphicon {
+    float: left;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #fdbd00;
+}
+
+.words ul {
+    line-height: 38px;
+}
+
+.words ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+.service_main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.consult {
+    background-color: #fff;
+    border-top: 3px solid #004585;
+    border-radius: 5px;
+}
+
+.consult_top {
+    border-bottom: 1px solid #ccc;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.consult_top .text {
+    padding-top: 5px;
+    float: left;
+    font-size: 15px;
+}
+
+.consult_top .ddd {
+    float: right;
+    padding-top: 5px;
+}
+
+.one {
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.one .glyphicon {
+    margin-left: 20%;
+}
+
+.consult_active {
+    background-color: #fff;
+    border-top: 3px solid #004585;
+    border-radius: 5px;
+}
+
+.consult_active .consult_top {
+    border-bottom: 1px solid #ccc;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.consult_active .consult_top .ddd {
+    float: right;
+    padding-top: 5px;
+}
+
+.consult_active .one {
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.consult_active .one .glyphicon {
+    margin-left: 15%;
+}
+
+.footer {
+    margin-top: 50px;
+    background: #004585;
+    min-height: 360px;
+}
+
+.footer_content {
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.footer_content a {
+    color: #fff;
+    font-size: 10px;
+}
+
+.footer_content h4 {
+    padding-bottom: 20px;
+}
+
+.down {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.down_line {
+    background-color: #fff;
+    height: 1px;
+    margin-top: 8px;
+}
+
+.down_text a {
+    color: #fff;
+}
+
+.down_line1 {
+    height: 1px;
+    background-color: #fff;
+    margin-top: 8px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .logo img {
+        width: 25%;
+    }
+}

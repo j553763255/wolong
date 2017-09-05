@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<button class="share">分享</button>
+    <script>
+        console.log(1);
+        document.getElementsByClassName('share').onclick=function () {
+            console.log(1);
+                    };
+        var ShareTip = function()
+{
+
+};
+//分享到腾讯微博
+ShareTip.prototype.sharetoqq=function(content,url,picurl)
+{
+ var shareqqstring='http://v.t.qq.com/share/share.php?title='+content+'&url='+url+'&pic='+picurl;
+ window.open(shareqqstring,'newwindow','height=100,width=100,top=100,left=100');
+};
+//分享到新浪微博
+ShareTip.prototype.sharetosina=function(title,url,picurl)
+{
+ var sharesinastring='http://v.t.sina.com.cn/share/share.php?title='+title+'&url='+url+'&content=utf-8&sourceUrl='+url+'&pic='+picurl;
+ window.open(sharesinastring,'newwindow','height=400,width=400,top=100,left=100');
+};
+//分享到QQ空间
+ShareTip.prototype.sharetoqqzone=function(title,url,picurl)
+{
+ var shareqqzonestring='http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?summary='+title+'&url='+url+'&pics='+picurl;
+ window.open(shareqqzonestring,'newwindow','height=400,width=400,top=100,left=100');
+}
+                </script>
+
+<!--<script src="/Public/home/js/jquery.js"></script>-->
+    <!--<title>手机端六位密码输入</title>-->
+    <!--<style>-->
+        <!--.pwd-box{-->
+            <!--width:310px;-->
+            <!--padding-left: 1px;-->
+            <!--position: relative;-->
+            <!--border: 1px solid #9f9fa0;-->
+            <!--border-radius: 3px;-->
+            <!--over-flow:hidden-->
+        <!--}-->
+        <!--.pwd-box input[type="tel"]{-->
+            <!--width: 99%;-->
+            <!--height: 45px;-->
+            <!--color: transparent;-->
+            <!--position: absolute;-->
+            <!--top: 0;-->
+            <!--left: 0;-->
+            <!--border: none;-->
+            <!--font-size: 18px;-->
+            <!--opacity: 0;-->
+            <!--z-index: 1;-->
+            <!--letter-spacing: 35px;-->
+        <!--}-->
+        <!--.fake-box input{-->
+            <!--width: 44px;-->
+            <!--height: 48px;-->
+            <!--border: none;-->
+            <!--border-right: 1px solid #e5e5e5;-->
+            <!--text-align: center;-->
+            <!--font-size: 30px;-->
+        <!--}-->
+        <!--.fake-box input:nth-last-child(1){-->
+            <!--border:none;-->
+        <!--}-->
+    <!--</style>-->
+<!--<div class="pwd-box">-->
+    <!--<input type="tel" maxlength="6" class="pwd-input" id="pwd-input">-->
+    <!--<div class="fake-box">-->
+        <!--<input type="password" readonly="">-->
+        <!--<input type="password" readonly="">-->
+        <!--<input type="password" readonly="">-->
+        <!--<input type="password" readonly="">-->
+        <!--<input type="password" readonly="">-->
+        <!--<input id="last" type="password" readonly="">-->
+    <!--</div>-->
+<!--</div>-->
+<!--<script>-->
+    <!--var $input = $(".fake-box input");-->
+    <!--$("#pwd-input").on("input", function() {-->
+        <!--var pwd = $(this).val().trim();-->
+        <!--for (var i = 0, len = pwd.length; i < len; i++) {-->
+            <!--$input.eq("" + i + "").val(pwd[i]);-->
+        <!--}-->
+        <!--$input.each(function() {-->
+            <!--var index = $(this).index();-->
+            <!--if (index >= len) {-->
+                <!--$(this).val("");-->
+            <!--}-->
+        <!--});-->
+        <!--if (len == 6) {-->
+            <!--console.log($("#pwd-input").val());-->
+        <!--}-->
+    <!--});-->
+<!--</script>-->
+</html>

@@ -1,254 +1,313 @@
-<!DOCTYPE HTML>
-<title>卧龙腾飞-首页</title>
+<title>卧龙腾飞--首页</title>
+<!--head-->
 <block name="include">
-	<include file="default:public/header"/>
+    <include file="default:public/header"/>
 </block>
-<style>
-
-.xs{
-  display: none;
-	background:rgba(0,0,0,.5);
-	overflow: hidden;
-}
-	
-</style>
-<div class="fh5co-loader"></div>
-<div>
-	<block name="include">
-		<include file="default:public/nav"/>
-	</block>
+<body>
+<!-- 顶部 -->
+<block name="include">
+    <include file="default:public/head"/>
+</block>
+<!--导航-->
+<block name="include">
+    <include file="default:public/nav"/>
+</block>
+<!--轮播图-->
+<div class="swiper-container banner">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <a href="#">
+                <img src="/wltf/Public/images/wltfbanner.png">
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="#">
+                <img src="/wltf/Public/images/ydylbanner.png">
+            </a>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
 </div>
-<body id="translation">
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(/Public/images/banner/sy.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>河南省卧龙腾飞实业有限公司</h1>
-							<!--<h2>More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></h2>-->
-							<h2>让合作企业 <a href="javascript:;" target="_self" title="通过" style="color: #1f3fcf;">通过</a> 卧龙展翅<a href="javascript:;" title="腾飞" target="_self" style="color: #1f3fcf;"> 腾飞</a></h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
+<!-- 新闻 -->
+<div class="main clearfix">
+    <div class="row ">
+        <div class="col-xs-12 ">
+            <div class="left col-md-8 col-xs-12">
+                <div class="left_main col-xs-12">
+                    <div class="photos col-md-5 col-xs-12">
+                        <div class="swiper-container two">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="http://www.bigdataobor.com/asset/images/news/5e39241db17581c2f533848bc9084706.jpg">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="http://www.bigdataobor.com/asset/images/news/5e39241db17581c2f533848bc9084706.jpg">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="http://www.bigdataobor.com/asset/images/news/5e39241db17581c2f533848bc9084706.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                    <div class="list col-md-7">
+                        <div class="left_top">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab"
+                                                                          data-toggle="tab"><b>高层动态</b></a></li>
+                                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab"
+                                                           data-toggle="tab"><b>项目进展</b></a></li>
+                                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab"
+                                                           data-toggle="tab"><b>贸易合作</b></a></li>
+                            </ul>
 
-
-	<!--<div id="fh5co-project">-->
-		<!--<div class="container">-->
-			<!--<div class="row animate-box">-->
-				<!--<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">-->
-					<!--<h2>公司简介</h2>-->
-					<!--<p>河南省卧龙腾飞实业发展有限公司位于河南省西南部，南水北调中线工程水源地，风景秀丽、文化历史底蕴深厚的诸葛亮躬耕地南阳，紧临卧龙区综合保税区，是一家集游戏娱乐、健康产业、培训教育、购物中心、极速物流、信用金融等六大产业为一体的综合性集团化公司。</p>-->
-				<!--</div>-->
-			<!--</div>-->
-		<!--</div>-->
-		<!--<div class="container-fluid proj-bottom">-->
-			<!--<div class="row">-->
-				<!--<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">-->
-					<!--<a href="#"><img src="/wltf/Public/images/project-1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">-->
-						<!--<h3>Web Master</h3>-->
-						<!--<span>View Course</span>-->
-					<!--</a>-->
-				<!--</div>-->
-				<!--<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">-->
-					<!--<a href="#"><img src="/wltf/Public/images/project-2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">-->
-						<!--<h3>Virtual Assistant</h3>-->
-						<!--<span>View Course</span>-->
-					<!--</a>-->
-				<!--</div>-->
-				<!--<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">-->
-					<!--<a href="#"><img src="/wltf/Public/images/project-3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">-->
-						<!--<h3>Read Bible</h3>-->
-						<!--<span>View Course</span>-->
-					<!--</a>-->
-				<!--</div>-->
-				<!--<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">-->
-					<!--<a href="#"><img src="/wltf/Public/images/project-9.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">-->
-						<!--<h3>Programming</h3>-->
-						<!--<span>View Course</span>-->
-					<!--</a>-->
-				<!--</div>-->
-				<!--<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">-->
-					<!--<a href="#"><img src="/wltf/Public/images/project-5.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">-->
-						<!--<h3>Technician</h3>-->
-						<!--<span>View Course</span>-->
-					<!--</a>-->
-				<!--</div>-->
-				<!--<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">-->
-					<!--<a href="#"><img src="/wltf/Public/images/project-6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">-->
-						<!--<h3>Photography</h3>-->
-						<!--<span>View Course</span>-->
-					<!--</a>-->
-				<!--</div>-->
-			<!--</div>-->
-		<!--</div>-->
-		<!--<div class="container">-->
-			<!--<div class="row">-->
-				<!--<div class="features">-->
-					<!--<div class="col-md-4 animate-box">-->
-						<!--<h4>We have coolest features of this course</h4>-->
-						<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  </p>-->
-					<!--</div>-->
-					<!--<div class="col-md-4 animate-box">-->
-						<!--<h4>Great teachers that we have</h4>-->
-						<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  </p>-->
-					<!--</div>-->
-					<!--<div class="col-md-4 animate-box">-->
-						<!--<h4>Steps by steps turorial session</h4>-->
-						<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  </p>-->
-					<!--</div>-->
-				<!--</div>-->
-				<!--<div class="col-md-12 text-center animate-box">-->
-					<!--<p><a class="btn btn-primary btn-lg btn-learn" href="#">Create A Free Course</a></p>-->
-				<!--</div>-->
-			<!--</div>-->
-		<!--</div>-->
-	<!--</div>-->
-    <!--<div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>-->
-<!--注释-->
-<div class="row">
-	<div class="col-xs-4 col-xs-8" style="width: 100%;margin-top: 60px;">
-		<div class="col-xs-3 col-md-offset-1">
-			<img src="/Public/images/sy/1.jpg" style="height: 400px;width: 500px;">
-		</div>	
-	  <div class="col-xs-5" style="margin-left:260px;">
-		  <h1 style="border-bottom: 1px solid #ccc;font-size: 24px;line-height: 50px;"><b>公司介绍</b></h1>
-		  <p>河南省卧龙腾飞实业有限公司是一家服务型管理集团，是一个大的合作共赢体系，其核心在于经营的一带一路国际贸易服务中心，前期依靠兔尔宝娱乐布局全国市场，建立全国连锁运营雏形；公司授权合作企业江苏兔尔宝文化发展有限公司；目前以独立运营河南省一带一路国际贸易服务中心、卧龙腾飞装饰公司、中铁国际多式联运有限公司南阳授权服务机构；预准运营南阳市大学生实训基地、卧龙腾飞休闲旅游、卧龙腾飞中医药产业园、卧龙腾飞超市等。集团战略定位于国内生产销售企业资源整合，打通合作企业间的合作壁障，并积极布局海外战略，依托南阳跨境电商产业园和中国海关南阳综合保税区，旨在建立企业与国际客商的沟通桥梁。在企业发展的过程中得到了区域内领导的高度重视，在项目落地的进程中，给予了大力支持，使得河南省卧龙腾飞实业有限公司能够更稳的扎根南阳，服务社会，形成了一家集国际贸易、游戏娱乐、高新科技，健康产业、培训教育、休闲旅游、装饰设计、极速物流、商超商业综合体等九大产业为一体的综合性集团化公司。</p>
-	  </div>
-	</div>  
-</div>
-			<div class="row animate-box" style="background-color: rgba(0, 0, 0, 0.1); margin-top: 60px;height: 400px;margin-bottom: 60px;">
-            <div class="fh5co-heading">
-                <div class="testimony-slide active">
-                  <div class="text-center">
-                    <span>一LOGO含义一</span>
-                    <figure>
-                      <img src="/Public/images/emailLogo.png" alt="user" style="width: 200px;height: 200px;">
-                    </figure>
-                  </div>
-                    <p>
-                        卧龙比喻隐居或未露头角的杰出人才，渊源共生，和谐共融”的“祥云”，“祥云”的文化概念在中国具有上千年的时间跨度，是具有代表性的中国文化符号，同时，云也是龙的身体，象征着我们的团队！     亭台楼阁，属于中国传统建筑。它们或面对巍巍群山，或俯视浩浩江湖，或融于园林之中，或踞于市井之上；而这个亭台楼阁是在祥云之上，寓意着企业的未来！飞龙，腾飞之意。
-                    </p>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="home">
+                                    <ul>
+                                        <li>
+                                            <a href="#">中国和印尼举行副总理级对话机制第六次会议</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">汪洋同尼泊尔副总理加查达尔会谈</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">巴基斯坦总统、总理会见汪洋</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">东盟与中日韩（10+3）外长会在马尼拉举行</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">王毅会见俄罗斯外长拉夫罗夫</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">中国与东盟就进一步加强互联互通合作达成共识</a><span>2017-08</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="profile">
+                                    <ul>
+                                        <li>
+                                            <a href="#">雅万高铁EPC合同签署</a><span>2017-04</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">熊波大使同洪森首相共同出席中国援柬国家体育场开...</a><span>2017-04</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">邢海明大使出席雅尔玛格立交桥项目开工仪式</a><span>2017-04</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">中国援助老挝升级改造国家电视台3频道</a><span>2017-03</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">2017年哈萨克斯坦南哈州将建成价值200万美元</a><span>2016-12</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">中白工业园招商工作专题会议在京召开</a><span>2016-12</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="messages">
+                                    <ul>
+                                        <li>
+                                            <a href="#">中国和印尼举行副总理级对话机制第六次会议</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">汪洋同尼泊尔副总理加查达尔会谈</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">巴基斯坦总统、总理会见汪洋</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">东盟与中日韩（10+3）外长会在马尼拉举行</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">王毅会见俄罗斯外长拉夫罗夫</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">中国与东盟就进一步加强互联互通合作达成共识</a><span>2017-08</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="more hidden-xs hidden-sm">
+                                <a href="#" title="更多咨询">...</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="words col-md-4">
+                <div class="words_top">
+                    <p class="glyphicon glyphicon-pencil"></p>
+                    <p>一带一路热词</p>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="col-xs-4 col-xs-push-2">
+                            <marquee behavior="scroll" direction="up" onmouseover="this.stop();"
+                                     onmouseout="this.start();">
+                                <ul>
+                                    <li>
+                                        <a href="#">标题一</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">标题一</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">标题一</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">标题一</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">标题一</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">标题一</a>
+                                    </li>
+                                </ul>
+                            </marquee>
+                        </div>
+                        <div class="col-xs-4 col-xs-push-3">
+                            <marquee behavior="scroll" direction="up" onmouseover="this.stop();"
+                                     onmouseout="this.start();">
+                                <ul>
+                                    <li>
+                                        <a href="#">标题一</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">标题一</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">标题一</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">标题一</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">标题一</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">标题一</a>
+                                    </li>
+                                </ul>
+                            </marquee>
+                        </div>
+                    </div>
+                </div>
             </div>
-			<div class="row">
-				<div class="col-lg-4 col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#"><img class="img-responsive" src="/Public/images/BAR.jpg" alt="" style="width: 365px;margin-right: 60px;"></a>
-						<div class="blog-text">
-							<h3><a href=""#>全国唯一一家一带一路服务中心</a></h3>
-							<!--<span class="posted_on">Nov. 15th</span>-->
-							<!--<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>-->
-							<p>
-								卧龙腾飞的新丝绸之路<br>
-								1.以“企业专员服务”为核心模式；<br>
-								2.服务门户网站”实现全价值链服务整合；<br>
-								3.为中小企业提供“专业服务平台”；<br>
-								4.“资讯门户网站”展示中心服务。<br>
-
-							</p>
-							<a href="#" class="btn btn-primary">Read More</a>
-						</div> 
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#"><img class="img-responsive" src="/Public/images/IFP.jpg" alt="" style="width: 365px;margin-right: 60px;"></a>
-						<div class="blog-text">
-							<h3><a href=""#>全国先行智慧消防云系统</a></h3>
-							<p>
-								智慧消防系统是实现报警自动化，接警智能化，处警预案化，管理网络化，服务专业化，科技现代化，真正做到方便，安全，可靠，使人民的生命安全财产安全以及警员安全得到最大限度的保护。
-							</p>
-							<a href="#" class="btn btn-primary">Read More</a>
-						</div> 
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#"><img class="img-responsive" src="/Public/images/doctor.jpg" alt="" style="width: 365px;margin-right: 60px;"></a>
-						<div class="blog-text">
-							<h3><a href=""#>中医药基地</a></h3>
-							<p>
-								医圣-张仲景故里医圣祠，位于中国河南省南阳市城东温凉河畔，张仲景是我国东汉时期伟大的医学家、世界医史伟人、被人们尊为中华"医圣"。而卧龙腾飞中医药基地就坐落于此地。
-							</p>
-							<a href="#" class="btn btn-primary">Read More</a>
-						</div> 
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="ds y" style="position: absolute;top: 0;left: 0;width: 100%;z-index: 9999;">
-		<button class="glyphicon glyphicon-th-list anniu" style="padding: 5px;"></button>
-		<div class="xs" id="fade" style="width: 80px;">
-		 <ul class="ej-nav" style="line-height: 30px;">
-            <li>
-                <a href="//index.phphome/index/index.html" style="color: #fff;">首页</a>
-            </li>
-            <li>
-                <a href="/index.php/home/introduce/index.html" style="color: #fff;">集团介绍</a>
-            </li>
-            <li class="has-dropdown">
-                <a href="/index.php/home/industry/index.html" style="color: #fff;">公司产业</a>
-                <ul class="dropdown" style="display: none;">
-                  <li><a href="#">智能科技</a></li>
-                  <li><a href="#">中医药基地</a></li>
-                  <li><a href="#">兔尔宝娱乐</a></li>
-                  <li><a href="#">尚惠商城</a></li>
-                </ul>
-            </li>
-            <li class="has-dropdown">
-                <a href="/index.php/home/news/index.html" style="color: #fff;">新闻中心</a>
-                <ul class="dropdown" aria-labelledby="dropdownMenuDivider" style="display: none;">
-                    <li><a href="http://www.ntdaily.com.cn/2017/qiye_0524/14955890107198.html">苏南网</a></li>
-                    <li><a href="http://www.citure.net/info/2017524/201752494912.shtml">中国城市文化网</a></li>
-                    <li><a href="http://fz.comnews.cn/yangquan/2017/4_0524/19103.html">中国商务新闻网</a></li>
-                    <hr/>
-                    <li><a href="{:U('home/news/companyinformation')}">更多企业信息>></a></li>
-                </ul>
-            </li>
-            <li class="has-dropdown">
-                <a href="/index.php/home/industry/index.html" style="color: #fff;">企业文化</a>
-                <ul class="dropdown" style="display: none;">
-                  <li><a href="{:U('home/company/corporatestyle')}">企业风采</a></li>
-                  <li><a href="{:U('home/index/download_courseware')}">企业课件</a></li>
-                  <li><a href="{:U('home/company/video')}">企业视频</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="/index.php/home/careers/index.html" style="color: #fff;">人才招聘</a>
-            </li>
-            <li class="has-dropdown">
-                <a href="/index.php/home/partner/index.html" style="color: #fff;">合作单位</a>
-                <ul class="dropdown"  style="min-width:250px;display: none;">
-                    <li><a href="http://www.turboet.com/" target="_blank">江苏兔尔宝文化发展有限公司</a></li>
-                    <li><a href="http://www.sh-life.com" target="_blank">安徽尚惠生活商业运营管理有限公司 </a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="/index.php/home/call/call.html" style="color: #fff;">联系我们</a>
-            </li>
-        </ul>
-	</div>
-	</div>
-<block name="include"><include file="default:public/footer"/></block>
-
-	<script>
-  	var i=0;
-  	$(".anniu").click(function(){
-  		if(i === 0) {
-  			$("#fade").show(1000);
-  			i++;
-  		}else{
-  			$("#fade").hide(1000);
-  			i--;
-  		}
-  })
-</script>
-
-
+        </div>
+    </div>
+</div>
+<!-- 服务 -->
+<div class="service_main clearfix">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="consult col-md-3 col-xs-12">
+                <div class="consult_top">
+                    <p class="text">咨询服务</p>
+                    <p class="glyphicon glyphicon-option-horizontal ddd"></p>
+                </div>
+                <div class="row yj">
+                    <div class="col-xs-12">
+                        <div class="col-md-6 col-md-push-2 col-xs-6">
+                            <p>国别研究</p>
+                        </div>
+                        <div class="col-md-6 col-md-push-1 col-xs-6">
+                            <p>国别研究</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row yj">
+                    <div class="col-xs-12">
+                        <div class="col-md-6 col-md-push-2 col-xs-6">
+                            <p>国别研究</p>
+                        </div>
+                        <div class="col-md-6 col-md-push-1 col-xs-6">
+                            <p>国别研究</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="consult col-md-4 col-xs-12 col-md-offset-1">
+                <div class="consult_top">
+                    <p class="text">咨询服务</p>
+                    <p class="glyphicon glyphicon-option-horizontal ddd"></p>
+                </div>
+                <div class="row yj">
+                    <div class="col-xs-12">
+                        <div class="col-md-6 col-md-push-2 col-xs-6">
+                            <p>国别研究</p>
+                        </div>
+                        <div class="col-md-6 col-md-push-1 col-xs-6">
+                            <p>国别研究</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row yj">
+                    <div class="col-xs-12">
+                        <div class="col-md-6 col-md-push-2 col-xs-6">
+                            <p>国别研究</p>
+                        </div>
+                        <div class="col-md-6 col-md-push-1 col-xs-6">
+                            <p>国别研究</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="consult col-md-3 col-xs-12 col-md-offset-1">
+                <div class="consult_top">
+                    <p class="text">咨询服务</p>
+                    <p class="glyphicon glyphicon-option-horizontal ddd"></p>
+                </div>
+                <div class="row yj">
+                    <div class="col-xs-12">
+                        <div class="col-md-6 col-md-push-2 col-xs-6">
+                            <p>国别研究</p>
+                        </div>
+                        <div class="col-md-6 col-md-push-1 col-xs-6">
+                            <p>国别研究</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row yj">
+                    <div class="col-xs-12">
+                        <div class="col-md-6 col-md-push-2 col-xs-6">
+                            <p>国别研究</p>
+                        </div>
+                        <div class="col-md-6 col-md-push-1 col-xs-6">
+                            <p>国别研究</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<block name="include">
+    <include file="default:public/footer"/>
+</block>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+</script>	

@@ -1,0 +1,236 @@
+.main{
+    width: 100%;
+    height: 100%;
+
+}
+
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){}
+/*{!* 兼容iphone5 *!}*!*!*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px){
+    /* style */
+    .main_service_img .focus_2 {
+        /*width: 325px;*/
+        height: 240px;
+    }
+    .fcon>a>img{
+        width: 100%;
+        height: 10rem;
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+    }
+    .main_fr{
+        width: 100%;
+    }
+    .xi{
+        width: 80%;
+    }
+    #tab{
+        width: 85%;
+        margin-left: 3rem;
+    }
+    #tab1{
+        width: 85%;
+        margin-left: 3rem;
+    }
+    .main_news .main_newsfl {
+        padding: 10px 20px;
+        height: 15rem;
+    }
+    .fcon_text>p{
+        text-indent: 2em;
+        font-size: 1.3rem;
+        /* overflow: hidden; */
+        margin-left: .7rem;
+        margin-top: 0.4rem;
+        width: 92%;
+        /* height: 6.2rem; */
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+    h4{
+        margin: .5rem;
+    }
+    h4>a{
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-left: 0.35rem;
+    }
+    .policy_new{
+        margin-left: 1rem;
+    }
+ .main_opinion {
+   width: 103%;
+}
+.fr{
+    /*margin: 5px 10px 0;*/
+}
+.main_news{
+    width: 103%;
+}
+
+.analyse{
+
+}
+
+}
+
+
+
+
+
+/*6*/
+@media (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio : 2){
+    .fcon>a>img{
+        width: 100%;
+        height: 10rem;
+        margin-top: 1rem;
+    }
+    .main_fr{
+        width: 100%;
+    }
+    .xi{
+        width: 80%;
+    }
+    #tab{
+        width: 85%;
+        margin-left: 3rem;
+    }
+    #tab1{
+        width: 85%;
+        margin-left: 3rem;
+    }
+    .main_news .main_newsfl {
+        padding: 10px 20px;
+        height: 15rem;
+    }
+    .fcon_text>p{
+
+    }
+    .policy_new{
+        margin-left: 1rem;
+    }
+}
+
+/*6+*/
+@media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3){ }
+
+/*魅族*/
+@media only screen and (min-device-width :1080px) and (-webkit-min-device-pixel-ratio : 2.5){ }
+
+/*mate7*/
+@media only screen and (min-device-width :1080px) and (-webkit-min-device-pixel-ratio : 3){ }
+
+/*4 4s*/
+@media only screen and (device-height :480px) and (-webkit-device-pixel-ratio:2){ }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+}
+
+/* 平板之类的宽度 1024 以下设备 */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+    /* style */
+    .fcon>a>img{
+        width: 100%;
+        height: 16rem;
+        background-size: cover;
+    }
+    .main_fr{
+        width: 100%;
+    }
+
+    #tab{
+        width: 85%;
+        margin-left: 3rem;
+        margin-top: 4rem;
+    }
+    #tab1{
+        width: 85%;
+        margin-left: 3rem;
+        margin-top: 4rem;
+    }
+    .main_news .main_newsfl {
+        padding: 10px 20px;
+        height: 15rem;
+    }
+    .fcon_text>p{
+
+    }
+
+}
+/* PC客户端或大屏幕设备: 1028px 至更大 */
+@media only screen and (min-width: 1029px) {
+    body {
+        background: green;
+    }
+}
+
+/* 竖屏 */
+@media screen and (orientation:portrait) and (max-width: 720px) {对应样式}
+
+/* 横屏 */
+@media screen and (orientation:landscape){对应样式}
+
+
+
+/*6+*/
+@media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3){ }
+
+/*魅族*/
+@media only screen and (min-device-width :1080px) and (-webkit-min-device-pixel-ratio : 2.5){ }
+
+/*mate7*/
+@media only screen and (min-device-width :1080px) and (-webkit-min-device-pixel-ratio : 3){ }
+
+/*!*4 4s*!*/
+/*@media only screen and (device-height :480px) and (-webkit-device-pixel-ratio:2){ }*/
+
+/*@media screen and (min-width: 320px) and (max-width: 480px) {  }*/
+
+/*!* 平板之类的宽度 1024 以下设备 *!*/
+/*@media only screen and (min-width: 321px) and (max-width: 1024px) {*/
+/*body {*/
+/*background: blue;*/
+/*}*/
+/*}*/
+
+/*!* PC客户端或大屏幕设备: 1028px 至更大 *!*/
+@media only screen and (min-width: 1029px) {
+    /*首页轮播图news*/
+    /*news_contnet 轮播图*/
+    .fl{float: left;}
+    .fr{float: right;}
+    .main_service_img{width: 640px;height: 240px;margin:20px auto 34px;background:#999;}
+    .main_service_img .focus_2{ width:640px;height:240px; position:relative; top: 0px;left:0;background-color: #fff;}
+    .main_service_img .focus_2 img{ width: 350px; height: 240px;}
+    .main_service_img  .fcon_text{width: 270px;height: 230px;;position: absolute;top: 8px;left: 370px;}
+    .main_service_img  .fcon_text h4{font-size: 16px;font-weight: 600;color: #444;margin-bottom: 5px;letter-spacing:1px;line-height: 24px;}
+    .main_service_img  .fcon_text h4 span{font-size: 10px;font-weight: normal;color: #888;display: block;margin-top: 3px;}
+    .main_service_img  .fcon_text p{font-size: 13px;font-weight: normal;color: #555;text-indent: 2em;line-height: 22px;
+        text-align：justify; letter-spacing:1px;}
+    .main_service_img .fbg{top:246px;left: 140px;}
+    .main_opinion_table{padding: 16px 0 ;}
+    .main_opinion_table img{width: 300px;height: 200px;margin:  0; }
+    .main{min-height: 50px;width: 1200px;margin: 0 auto;background:#fafafa;border-top: 0px solid #eee; }
+    .main_fl{width:680px;margin:20px 10px 20px 100px;}
+    .main_service_td .main_service_img img{width: 40px;height: 30px;}
+    .main_fr{width:300px;margin:30px 10px  10px 10px;}
+
+}
+
+/*!* 竖屏 *!*/
+/*@media screen and (orientation:portrait) and (max-width: 720px) {对应样式}*/
+
+/*!* 横屏 *!*/
+/*@media screen and (orientation:landscape){对应样式}*/
+
+/*iPhone5s 504*320*/
