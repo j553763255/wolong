@@ -1,0 +1,19 @@
+
+.footer{
+  margin-top: 50px;
+  background: #004585;
+} 
+
+.footer_content{
+  line-height: 30px;
+  padding-top: 30px;
+} 
+
+.footer_content a{
+  color: #fff;
+  font-size: 10px;
+}
+
+.footer_content h4{
+  padding-bottom: 20px;
+}

@@ -1,285 +1,508 @@
-<!DOCTYPE HTML>
-<title>卧龙腾飞-新闻中心</title>
-<style type="text/css">
-  .xs{
-  display: none;
-    background:rgba(0,0,0,.5);
-    overflow: hidden;
-}
-</style>
+<title>卧龙腾飞--新闻中心</title>
+<!--head-->
 <block name="include">
-	<include file="default:public/header"/>
+    <include file="default:public/header"/>
 </block>
+<link rel="stylesheet" type="text/css" href="/wltf/Public/css/news.css">
+<body>
+<!-- 顶部 -->
+<block name="include">
+    <include file="default:public/head"/>
+</block>
+<!--导航-->
+<block name="include">
+    <include file="default:public/nav"/>
+</block>
+<!-- 新闻 -->
+<div class="main clearfix">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="left col-md-8 col-xs-12">
+                <div class="left_main col-xs-12">
+                    <div class="photos col-md-5 col-xs-12">
+                        <div class="swiper-container two">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="http://www.bigdataobor.com/asset/images/news/5e39241db17581c2f533848bc9084706.jpg">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="http://www.bigdataobor.com/asset/images/news/5e39241db17581c2f533848bc9084706.jpg">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="http://www.bigdataobor.com/asset/images/news/5e39241db17581c2f533848bc9084706.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                    <div class="list col-md-7">
+                        <div class="left_top">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab"
+                                                                          data-toggle="tab"><b>高层动态</b></a></li>
+                                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab"
+                                                           data-toggle="tab"><b>项目进展</b></a></li>
+                                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab"
+                                                           data-toggle="tab"><b>贸易合作</b></a></li>
+                            </ul>
 
-<div class="fh5co-loader"></div>
-<div>
-	<block name="include">
-		<include file="default:public/nav"/>
-	</block>
-</div>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="home">
+                                    <ul>
+                                        <li>
+                                            <a href="#">中国和印尼举行副总理级对话机制第六次会议</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">汪洋同尼泊尔副总理加查达尔会谈</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">巴基斯坦总统、总理会见汪洋</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">东盟与中日韩（10+3）外长会在马尼拉举行</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">王毅会见俄罗斯外长拉夫罗夫</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">中国与东盟就进一步加强互联互通合作达成共识</a><span>2017-08</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="profile">
+                                    <ul>
+                                        <li>
+                                            <a href="#">雅万高铁EPC合同签署</a><span>2017-04</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">熊波大使同洪森首相共同出席中国援柬国家体育场开...</a><span>2017-04</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">邢海明大使出席雅尔玛格立交桥项目开工仪式</a><span>2017-04</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">中国援助老挝升级改造国家电视台3频道</a><span>2017-03</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">2017年哈萨克斯坦南哈州将建成价值200万美元</a><span>2016-12</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">中白工业园招商工作专题会议在京召开</a><span>2016-12</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="messages">
+                                    <ul>
+                                        <li>
+                                            <a href="#">中国和印尼举行副总理级对话机制第六次会议</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">汪洋同尼泊尔副总理加查达尔会谈</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">巴基斯坦总统、总理会见汪洋</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">东盟与中日韩（10+3）外长会在马尼拉举行</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">王毅会见俄罗斯外长拉夫罗夫</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">中国与东盟就进一步加强互联互通合作达成共识</a><span>2017-08</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="more hidden-xs hidden-sm">
+                                <a href="#" title="更多咨询">...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left_main col-xs-12">
+                    <div class="photos col-md-5 col-xs-12">
+                        <div class="swiper-container two">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="http://www.bigdataobor.com/asset/images/news/5e39241db17581c2f533848bc9084706.jpg">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="http://www.bigdataobor.com/asset/images/news/5e39241db17581c2f533848bc9084706.jpg">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="http://www.bigdataobor.com/asset/images/news/5e39241db17581c2f533848bc9084706.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                    <div class="list col-md-7">
+                        <div class="left_top">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#one" aria-controls="one" role="tab"
+                                                                          data-toggle="tab"><b>金融合作</b></a></li>
+                                <li role="presentation"><a href="#two" aria-controls="two" role="tab" data-toggle="tab"><b>文化交流</b></a>
+                                </li>
+                                <li role="presentation"><a href="three" aria-controls="three" role="tab"
+                                                           data-toggle="tab"><b>贸易合作</b></a></li>
+                            </ul>
 
-<div class="clearfix">
-	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(/Public/images/newsBcg.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>新闻中心</h1>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-</div>
-<div class="news1" style="margin:30px;">
-    <div class="col-sm-3 hidden-xs" style="box-shadow: 5px 5px 3px 3px #ccc;">
-      <div class="input-group">
-        <span class="input-group-btn">
-          <button class="btn btn-default" type="button">搜索</button>
-        </span>
-        <input type="text"  placeholder="请输入您需要查看的内容">
-      </div>
-      <div class="title">
-    	<ul>
-    		<li>标题一</li>
-    		<li>标题二</li>
-    		<li>标题三</li>
-    		<li>标题四</li>
-    		<li>标题五</li>
-    		<li>标题六</li>
-    	</ul>
-    	<div class="more">
-    		<a href="#">更多>></a>
-    	</div>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="one">
+                                    <ul>
+                                        <li>
+                                            <a href="#">中国和印尼举行副总理级对话机制第六次会议</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">汪洋同尼泊尔副总理加查达尔会谈</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">巴基斯坦总统、总理会见汪洋</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">东盟与中日韩（10+3）外长会在马尼拉举行</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">王毅会见俄罗斯外长拉夫罗夫</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">中国与东盟就进一步加强互联互通合作达成共识</a><span>2017-08</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="two">
+                                    <ul>
+                                        <li>
+                                            <a href="#">雅万高铁EPC合同签署</a><span>2017-04</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">熊波大使同洪森首相共同出席中国援柬国家体育场开...</a><span>2017-04</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">邢海明大使出席雅尔玛格立交桥项目开工仪式</a><span>2017-04</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">中国援助老挝升级改造国家电视台3频道</a><span>2017-03</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">2017年哈萨克斯坦南哈州将建成价值200万美元</a><span>2016-12</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">中白工业园招商工作专题会议在京召开</a><span>2016-12</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="three">
+                                    <ul>
+                                        <li>
+                                            <a href="#">中国和印尼举行副总理级对话机制第六次会议</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">汪洋同尼泊尔副总理加查达尔会谈</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">巴基斯坦总统、总理会见汪洋</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">东盟与中日韩（10+3）外长会在马尼拉举行</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">王毅会见俄罗斯外长拉夫罗夫</a><span>2017-08</span>
+                                        </li>
+                                        <li>
+                                            <a href="#">中国与东盟就进一步加强互联互通合作达成共识</a><span>2017-08</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="more hidden-xs hidden-sm">
+                                <a href="#" title="更多咨询">...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="words col-md-4">
+                <div class="words_top">
+                    <p class="glyphicon glyphicon-star"></p>
+                    <p>热点新闻</p>
+                </div>
+                <div class="row hotnews_text">
+                    <div class="hotnews col-xs-12">
+                        <div class="col-sm-5">
+                            <a href="#">
+                                <img src=http://www.bigdataobor.com/asset/images/news/100/3ec114109fd98f5e59c0a12476a7d0e1.jpg>
+                            </a>
+                        </div>
+                        <div class="col-sm-7">
+                            <a href="#">
+                                习近平会见新加坡总理李显龙
+                            </a>
+                            <p>2017-07</p>
+                        </div>
+                    </div>
+                    <div class="hotnews col-xs-12">
+                        <div class="col-sm-5">
+                            <a href="#">
+                                <img src=http://www.bigdataobor.com/asset/images/news/100/3ec114109fd98f5e59c0a12476a7d0e1.jpg>
+                            </a>
+                        </div>
+                        <div class="col-sm-7">
+                            <a href="#">
+                                习近平会见新加坡总理李显龙
+                            </a>
+                            <p>2017-07</p>
+                        </div>
+                    </div>
+                    <div class="hotnews col-xs-12">
+                        <div class="col-sm-5">
+                            <a href="#">
+                                <img src=http://www.bigdataobor.com/asset/images/news/100/3ec114109fd98f5e59c0a12476a7d0e1.jpg>
+                            </a>
+                        </div>
+                        <div class="col-sm-7">
+                            <a href="#">
+                                习近平会见新加坡总理李显龙
+                            </a>
+                            <p>2017-07</p>
+                        </div>
+                    </div>
+                    <div class="hotnews col-xs-12">
+                        <div class="col-sm-5">
+                            <a href="#">
+                                <img src=http://www.bigdataobor.com/asset/images/news/100/3ec114109fd98f5e59c0a12476a7d0e1.jpg>
+                            </a>
+                        </div>
+                        <div class="col-sm-7">
+                            <a href="#">
+                                习近平会见新加坡总理李显龙
+                            </a>
+                            <p>2017-07</p>
+                        </div>
+                    </div>
+                    <div class="hotnews col-xs-12">
+                        <div class="col-sm-5">
+                            <a href="#">
+                                <img src=http://www.bigdataobor.com/asset/images/news/100/3ec114109fd98f5e59c0a12476a7d0e1.jpg>
+                            </a>
+                        </div>
+                        <div class="col-sm-7">
+                            <a href="#">
+                                习近平会见新加坡总理李显龙
+                            </a>
+                            <p>2017-07</p>
+                        </div>
+                    </div>
+                    <div class="hotnews col-xs-12">
+                        <div class="col-sm-5">
+                            <a href="#">
+                                <img src=http://www.bigdataobor.com/asset/images/news/100/3ec114109fd98f5e59c0a12476a7d0e1.jpg>
+                            </a>
+                        </div>
+                        <div class="col-sm-7">
+                            <a href="#">
+                                习近平会见新加坡总理李显龙
+                            </a>
+                            <p>2017-07</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-		</div>
-		<div class="col-sm-9 col-xs-12 col-sm-push-1">
-		  <div class="col-xs-3">
-		  	<a href="#">
-		  		<img src="/Public/images/newsBcg.jpg" style="height: 120px;width: 200px;">
-		  	</a>
-		  </div>
-		  <div class="col-xs-7" style="margin-bottom: 30px;height:120px;">
-		  	<h3>
-		  	  <a href="#">
-		  	  兔尔宝落户南阳 卧龙腾飞实业助力 金色家园游戏内测闪耀发布<span class="comIn">（点击进入）</span>
-		  	  </a>
-		  	</h3>
-		  	<p>2017年5月20日至5月21日，江苏兔尔宝文化发展有限公司携手卧龙腾飞实业有限公司游戏内测发布会在河南省南阳市卧龙区跨境电子商务产业园正式启动...</p>
-		  	<p class="active" style="margin-top: -20px;">2017-05-20</p>
-		   </div>
-		   <div class="col-xs-3">
-		  	<a href="#">
-		  		<img src="/Public/images/newsBcg.jpg" style="height: 120px;width: 200px;">
-		  	</a>
-		  </div>
-		  <div class="col-xs-7" style="margin-bottom: 30px;height:120px;">
-		  	<h3>
-		  	  <a href="#">
-		  	  兔尔宝落户南阳 卧龙腾飞实业助力 金色家园游戏内测闪耀发布<span class="comIn">（点击进入）</span>
-		  	  </a>
-		  	</h3>
-		  	<p>2017年5月20日至5月21日，江苏兔尔宝文化发展有限公司携手卧龙腾飞实业有限公司游戏内测发布会在河南省南阳市卧龙区跨境电子商务产业园正式启动...</p>
-		  	<p class="active" style="margin-top: -20px;">2017-05-20</p>
-		   </div>
-		   <div class="col-xs-3">
-		  	<a href="#">
-		  		<img src="/Public/images/newsBcg.jpg" style="height: 120px;width: 200px;">
-		  	</a>
-		  </div>
-		  <div class="col-xs-7" style="margin-bottom: 30px;height:120px;">
-		  	<h3>
-		  	  <a href="#">
-		  	  兔尔宝落户南阳 卧龙腾飞实业助力 金色家园游戏内测闪耀发布<span class="comIn">（点击进入）</span>
-		  	  </a>
-		  	</h3>
-		  	<p>2017年5月20日至5月21日，江苏兔尔宝文化发展有限公司携手卧龙腾飞实业有限公司游戏内测发布会在河南省南阳市卧龙区跨境电子商务产业园正式启动...</p>
-		  	<p class="active" style="margin-top: -15px;">2017-05-20</p>
-		   </div>
-        <ul class="pagination">
-          <li><a href="#">首页</a></li>
-			    <li><a href="#">&laquo;</a></li>
-			    <li><a href="#">1</a></li>
-			    <li><a href="#">2</a></li>
-			    <li><a href="#">3</a></li>
-			    <li><a href="#">4</a></li>
-			    <li><a href="#">5</a></li>
-			    <li><a href="#">&raquo;</a></li>
-			    <li><a href="#">尾页</a></li>
-			  </ul>
-		  </div>		  
 </div>
-<div class="ds y" style="position: absolute;top: 0;left: 0;width: 100%;z-index: 9999;">
-    <button class="glyphicon glyphicon-th-list anniu" style="padding: 5px;"></button>
-    <div class="xs" id="fade" style="width: 80px;">
-     <ul class="ej-nav" style="line-height: 30px;">
-            <li>
-                <a href="/index.php/home/index/index.html" style="color: #fff;">首页</a>
-            </li>
-            <li>
-                <a href="/index.php/home/introduce/index.html" style="color: #fff;">集团介绍</a>
-            </li>
-            <li class="has-dropdown">
-                <a href="/index.php/home/industry/index.html" style="color: #fff;">公司产业</a>
-                <ul class="dropdown" style="display: none;">
-                  <li><a href="#">智能科技</a></li>
-                  <li><a href="#">中医药基地</a></li>
-                  <li><a href="#">兔尔宝娱乐</a></li>
-                  <li><a href="#">尚惠商城</a></li>
+<div class="footer">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="footer_content col-xs-4 col-md-1">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h4>新闻</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">高层动态</a>
+                    </li>
+                    <li>
+                        <a href="#">项目进展</a>
+                    </li>
+                    <li>
+                        <a href="#">贸易合作</a>
+                    </li>
+                    <li>
+                        <a href="#">金融合作</a>
+                    </li>
+                    <li>
+                        <a href="#">文化交流</a>
+                    </li>
                 </ul>
-            </li>
-            <li class="has-dropdown">
-                <a href="/index.php/home/news/index.html" style="color: #fff;">新闻中心</a>
-                <ul class="dropdown" aria-labelledby="dropdownMenuDivider" style="display: none;">
-                    <li><a href="http://www.ntdaily.com.cn/2017/qiye_0524/14955890107198.html">苏南网</a></li>
-                    <li><a href="http://www.citure.net/info/2017524/201752494912.shtml">中国城市文化网</a></li>
-                    <li><a href="http://fz.comnews.cn/yangquan/2017/4_0524/19103.html">中国商务新闻网</a></li>
-                    <hr/>
-                    <li><a href="{:U('home/news/companyinformation')}">更多企业信息>></a></li>
+            </div>
+            <div class="footer_content col-xs-4 col-md-1">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h4>政策</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">政策动态</a>
+                    </li>
+                    <li>
+                        <a href="#">政策解读</a>
+                    </li>
+                    <li>
+                        <a href="#">领导讲话</a>
+                    </li>
+                    <li>
+                        <a href="#">国外战略</a>
+                    </li>
+                    <li>
+                        <a href="#">国外政策</a>
+                    </li>
                 </ul>
-            </li>
-           <li class="has-dropdown">
-                <a href="/index.php/home/industry/index.html" style="color: #fff;">企业文化</a>
-                <ul class="dropdown" style="display: none;">
-                  <li><a href="{:U('home/company/corporatestyle')}">企业风采</a></li>
-                  <li><a href="{:U('home/index/download_courseware')}">企业课件</a></li>
-                  <li><a href="{:U('home/company/video')}">企业视频</a></li>
+            </div>
+            <div class="footer_content col-xs-4 col-md-1">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h4>国别</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">东南亚</a>
+                    </li>
+                    <li>
+                        <a href="#">南亚</a>
+                    </li>
+                    <li>
+                        <a href="#">东亚</a>
+                    </li>
+                    <li>
+                        <a href="#">中东欧</a>
+                    </li>
+                    <li>
+                        <a href="#">俄罗斯</a>
+                    </li>
+                    <li>
+                        <a href="#">西亚北菲</a>
+                    </li>
+                    <li>
+                        <a href="#">中亚</a>
+                    </li>
                 </ul>
-            </li>
-            <li>
-                <a href="/index.php/home/careers/index.html" style="color: #fff;">人才招聘</a>
-            </li>
-            <li class="has-dropdown">
-                <a href="/index.php/home/partner/index.html" style="color: #fff;">合作单位</a>
-                <ul class="dropdown"  style="min-width:250px;display: none;">
-                    <li><a href="http://www.turboet.com/" target="_blank">江苏兔尔宝文化发展有限公司</a></li>
-                    <li><a href="http://www.sh-life.com" target="_blank">安徽尚惠生活商业运营管理有限公司 </a></li>
+            </div>
+            <div class="footer_content col-xs-4 col-md-1">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h4>数据</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">数据种类</a>
+                    </li>
+                    <li>
+                        <a href="#">基础数据服务</a>
+                    </li>
+                    <li>
+                        <a href="#">数据应用案例</a>
+                    </li>
                 </ul>
-            </li>
-            <li>
-                <a href="/index.php/home/call/call.html" style="color: #fff;">联系我们</a>
-            </li>
-        </ul>
-  </div>
-  </div>
-<block name="include"><include file="default:public/footer"/></block>
-
-
-  <script>
-    var i=0;
-    $(".anniu").click(function(){
-      if(i === 0) {
-        $("#fade").show(1000);
-        i++;
-      }else{
-        $("#fade").hide(1000);
-        i--;
-      }
-  })
-</script>
+            </div>
+            <div class="footer_content col-xs-4 col-md-1">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h4>服务</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">咨询服务</a>
+                    </li>
+                    <li>
+                        <a href="#">金融服务</a>
+                    </li>
+                    <li>
+                        <a href="#">语言服务</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_content col-xs-4 col-md-1">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h4>1+N合作</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">合作机制</a>
+                    </li>
+                    <li>
+                        <a href="#">合作单位</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_content col-xs-4 col-md-1">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h4>关于我们</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">中心介绍</a>
+                    </li>
+                    <li>
+                        <a href="#">中心动态</a>
+                    </li>
+                    <li>
+                        <a href="#">联系我们</a>
+                    </li>
+                    <li>
+                        <a href="#">高层动态</a>
+                    </li>
+                    <li>
+                        <a href="#">高层动态</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../js/jquery-1.12.2.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.js"></script>
+<script type="text/javascript" src="../js/swiper.jquery.min.js"></script>
 <script>
-    var oUl = $('.menu-1').children('ul'),
-        aLi = oUl.children('li');
-    aLi.eq(3).addClass('active').siblings().removeClass('active');
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
 </script>
-<!-- <div class="news1">
-	<div class="search">
-    <div class="col-lg-4">
-      <div class="input-group">
-        <span class="input-group-btn">
-          <button class="btn btn-default" type="button">搜索</button>
-        </span>
-      <input type="text"  placeholder="请输入您需要查看的内容">
-      </div>
-      <div class="title">
-    	<ul>
-    		<li>标题一</li>
-    		<li>标题二</li>
-    		<li>标题三</li>
-    		<li>标题四</li>
-    		<li>标题五</li>
-    		<li>标题六</li>
-    	</ul>
-    </div>
-    </div>
-	<div class="message">
-		<div class="col-lg-8">
-	</div> -->
-	<!-- 原样式
-	<div id="fh5co-blog">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#"><img class="img-responsive" src="/wltf/Public/images/snxw.jpg" alt=""></a>
-						<div class="blog-text">
-							<h3><a href="">苏南网</a></h3>
-							<span class="posted_on">Nov. 15th</span>
-							<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
-							<p>兔尔宝落户南阳 卧龙腾飞实业助力 金色家园游戏内测闪耀发布.</p>
-							<a href="http://www.ntdaily.com.cn/2017/qiye_0524/14955890107198.html" class="btn btn-primary">Read More</a>
-						</div> 
-					</div>
-				</div><div class="col-lg-4 col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#"><img class="img-responsive" src="/wltf/Public/images/zgcswhw.jpg" alt=""></a>
-						<div class="blog-text">
-							<h3><a href="">中国城市文化网</a></h3>
-							<span class="posted_on">Nov. 15th</span>
-							<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
-							<p>兔尔宝项目落户南阳 卧龙腾飞实业助力 游戏内测闪耀发布.</p>
-							<a href="http://www.citure.net/info/2017524/201752494912.shtml" class="btn btn-primary">Read More</a>
-						</div>
-					</div>
-				</div><div class="col-lg-4 col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#"><img class="img-responsive" src="/wltf/Public/images/zgswxww.jpg" alt=""></a>
-						<div class="blog-text">
-							<h3><a href="">中国商务新闻网</a></h3>
-							<span class="posted_on">Nov. 15th</span>
-							<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
-							<p>兔尔宝落户南阳 卧龙腾飞实业助力 金色家园游戏内测闪耀发布.</p>
-							<a href="http://fz.comnews.cn/yangquan/2017/4_0524/19103.html" class="btn btn-primary">Read More</a>
-						</div>
-					</div>
-				</div><div class="col-lg-4 col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#"><img class="img-responsive" src="/wltf/Public/images/snxw.jpg" alt=""></a>
-						<div class="blog-text">
-							<h3><a href="">苏南网</a></h3>
-							<span class="posted_on">Nov. 15th</span>
-							<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
-							<p>兔尔宝落户南阳 卧龙腾飞实业助力 金色家园游戏内测闪耀发布.</p>
-							<a href="http://www.ntdaily.com.cn/2017/qiye_0524/14955890107198.html" class="btn btn-primary">Read More</a>
-						</div>
-					</div>
-				</div><div class="col-lg-4 col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#"><img class="img-responsive" src="/wltf/Public/images/snxw.jpg" alt=""></a>
-						<div class="blog-text">
-							<h3><a href="">苏南网</a></h3>
-							<span class="posted_on">Nov. 15th</span>
-							<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
-							<p>兔尔宝落户南阳 卧龙腾飞实业助力 金色家园游戏内测闪耀发布.</p>
-							<a href="http://www.ntdaily.com.cn/2017/qiye_0524/14955890107198.html" class="btn btn-primary">Read More</a>
-						</div>
-					</div>
-				</div><div class="col-lg-4 col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#"><img class="img-responsive" src="/wltf/Public/images/snxw.jpg" alt=""></a>
-						<div class="blog-text">
-							<h3><a href="">苏南网</a></h3>
-							<span class="posted_on">Nov. 15th</span>
-							<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
-							<p>兔尔宝落户南阳 卧龙腾飞实业助力 金色家园游戏内测闪耀发布.</p>
-							<a href="http://www.ntdaily.com.cn/2017/qiye_0524/14955890107198.html" class="btn btn-primary">Read More</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
--->

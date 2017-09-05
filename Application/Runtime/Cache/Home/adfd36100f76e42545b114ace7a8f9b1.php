@@ -1,0 +1,637 @@
+<?php if (!defined('THINK_PATH')) exit();?><title>卧龙腾飞--政策</title>
+<!--head-->
+
+    <!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
+<!-- BEGIN HEAD -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/><!-- 可选default、black、black-translucent -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/><!-- 可选default、black、black-translucent -->
+    <meta name="applicable-device" content="mobile"/>
+    <link rel="stylesheet" type="text/css" href="/wltf/Public/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/wltf/Public/css/header_new.css">
+    <link rel="stylesheet" type="text/css" href="/wltf/Public/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="/wltf/Public/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/wltf/Public/css/swiper.min.css">
+    <link rel="stylesheet" href="/wltf/Public/css/partner.css" />
+    <link rel="stylesheet" href="/wltf/Public/css/animate.css">
+
+    <!--<link rel="stylesheet" type="text/css" href="/wltf/Public/css/default.css"/>-->
+    <!--<link rel="stylesheet" type="text/css" href="/wltf/Public/css/navipage.css"/>-->
+    <!--<link rel="stylesheet" href="/wltf/Public/css/media.css">-->
+    <!--<link rel="stylesheet" href="/wltf/Public/css/media1.css">-->
+    <!--[if ie 9]>
+    <script src="/wltf/Public/js/html5shiv.js"></script>
+    <script src="/wltf/Public/js/respond.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- 顶部 -->
+
+    <div class="header">
+    <div class="row">
+        <div class="header_top clearfix col-xs-12">
+            <p class="pull-left">
+                <span>One Belt One Road, Universal Service Platform</span>
+            </p>
+        </div>
+    </div>
+    <!--logo -->
+    <div class="row logo">
+        <div class="col-xs-12">
+            <div class="wltf col-sm-3 col-xs-12">
+                <a href="#">
+                    <img src="/wltf/Public/images/wltf.jpg">
+                </a>
+            </div>
+            <div class="search col-xs-12 col-sm-3 visible-xs">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="搜索...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                </button>
+              </span>
+                </div><!-- /input-group -->
+            </div>
+            <div class="heading col-sm-9 col-xs-12">
+                <div class="col-xs-12">
+                    <h3>
+                        河南省卧龙腾飞一带一路服务中心
+                    </h3>
+                    <p>
+                        Henan province Wolong Tengfei Belt and Road Initiative Service Center
+                    </p>
+                </div>
+                <div class="search-action col-sm-4 hidden-xs">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="搜索...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                </button>
+              </span>
+                    </div><!-- /input-group -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--导航-->
+
+    <div class="row nav_top clearfix hidden-sm">
+    <div class="col-xs-12 hidden-xs">
+        <?php if(is_array($menus)): $i = 0; $__LIST__ = $menus;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="<?php echo ($vo["class"]); ?>">
+                <a href="<?php echo U('home/'.$vo['url'].'/index');?>" class="glyphicon <?php echo ($vo["icon"]); ?>" aria-hidden="true">
+                    <?php echo ($vo["name"]); ?>
+                </a>
+            </div><?php endforeach; endif; else: echo "" ;endif; ?>
+    </div>
+</div>
+
+<!-- news-banner begin -->
+<div class='news_banner'>
+    <script type="text/javascript">
+        Qfast.add('widgets', {
+            path: "js/terminator2.2.min.js"/*tpa=http://www.bigdataobor.com/asset/js/terminator2.2.min.js*/,
+            type: "js",
+            requires: ['fx']
+        });
+        Qfast(false, 'widgets', function () {
+            K.tabs({
+                id: 'fsD4',   //焦点图包裹id
+                conId: "D4pic1",  //** 大图域包裹id
+                tabId: "D4fBt",
+                tabTn: "a",
+                conCn: '.fcon', //** 大图域配置class
+                auto: 1,   //自动播放 1或0
+                effect: 'fade',   //效果配置
+                eType: 'click', //** 鼠标事件
+                pageBt: true,//是否有按钮切换页码
+                //bns: ['.prev', '.next'],//** 前后按钮配置class
+                interval: 3000  //** 停顿时间
+            })
+        })
+    </script>
+    <div id="fsD4" class="focus_2">
+        <div id="D4pic1" class="fPic">
+            <div class="fcon" style="display: block;">
+                <a target="_blank" href="show_detail/820.htm"
+                   tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/820">
+                    <img class="xi" src="/wltf/Public/images/news/39fdff21b1e0cd78d7e646d65f46cf4f.jpg"
+                         tppabs="http://www.bigdataobor.com/asset/images/news/39fdff21b1e0cd78d7e646d65f46cf4f.jpg"
+                         style="opacity: 1; ">
+                    <div class="fcon_text">
+                        <h4><a href="show_detail/820.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/820">
+                            习近平在“一带一路”国际合作高峰论坛圆桌峰会上的开幕辞（全文...</a>
+                            <span>2017-05-15 18:06:16</span></h4><i class="icon-user"></i>
+                        <p> 习近平在“一带一路”国际合作高峰论坛圆桌峰会上的开幕辞，提出了论坛在推动互利共赢、密切政策协调、深化务实合作等方面期待达成的成果。</p>
+                    </div>
+                </a>
+            </div>
+            <div class="fcon" style="display: none">
+                <a target="_blank" href="show_detail/615.htm"
+                   tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/615">
+                    <img class="xi" class="img-responsive" alt="响应式图像"
+                         src="/wltf/Public/images/news/b69e937c8fdaa5b52e65287309011454.jpg"
+                         tppabs="http://www.bigdataobor.com/asset/images/news/b69e937c8fdaa5b52e65287309011454.jpg"
+                         style="opacity: 1; ">
+                    <div class="fcon_text">
+                        <h4><a href="show_detail/615.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/615">
+                            习近平在二十国集团领导人杭州峰会上的开幕辞（全文）</a>
+                            <span>2016-09-04 14:17:29</span></h4>
+                        <p>
+                            习近平在二十国集团领导人杭州峰会上的开幕式上发表讲话，就应对当前世界经济面临的挑战提出5点主张，即加强宏观政策协调、创新发展方式、完善全球经济治理、建设开放型世界经济、落实2030年可持续发展议程。同时认为二十国集团使命重大，应该为世界经济繁荣和稳定把握好大方向。</p>
+                    </div>
+                </a>
+            </div>
+            <div class="fcon" style="display: none">
+                <a target="_blank" href="show_detail/618.htm"
+                   tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/618">
+                    <img class="xi" src="/wltf/Public/images/news/2c519013127a05ddb5a59c81e16ac9f7.jpg"
+                         tppabs="http://www.bigdataobor.com/asset/images/news/2c519013127a05ddb5a59c81e16ac9f7.jpg"
+                         style="opacity: 1; ">
+                    <div class="fcon_text">
+                        <h4><a href="show_detail/618.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/618">
+                            习近平出席2016年二十国集团工商峰会开幕式 并发表主旨演讲...</a>
+                            <span>2016-09-03 15:31:43</span></h4>
+                        <p>
+                            习近平出席2016年二十国集团工商峰会开幕式并发表主旨演讲，表示中国站在新的历史起点，中国的发展得益于国际社会，也愿为国际社会提供更多公共产品。二十国集团要推动建设创新、开放、联动、包容的世界经济，推动世界经济走上强劲、可持续、平衡、包容增长之路。</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="fbg">
+            <div class="D4fBt" id="D4fBt">
+                <a href="javascript:void(0)" hidefocus="true" target="_self" class="current"><i></i></a>
+                <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i></i></a>
+                <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- news-banner end-->
+
+
+<div class='main clearfix'>
+    <div class='main_fl fl'>
+        <div class='main_news clearfix'>
+            <p class='main_topline'></p>
+            <div class='main_newsfl fl'>
+                <script type="text/javascript">
+                    Qfast.add('widgets', {
+                        path: "js/terminator2.2.min.js"/*tpa=http://www.bigdataobor.com/asset/js/terminator2.2.min.js*/,
+                        type: "js",
+                        requires: ['fx']
+                    });
+                    Qfast(false, 'widgets', function () {
+                        K.tabs({
+                            id: 'minfsD4',   //焦点图包裹id
+                            conId: "minD4pic1",  //** 大图域包裹id
+                            tabId: "minD4fBt",
+                            tabTn: "a",
+                            conCn: '.fcon', //** 大图域配置class
+                            auto: 1,   //自动播放 1或0
+                            effect: 'fade',   //效果配置
+                            eType: 'click', //** 鼠标事件
+                            pageBt: true,//是否有按钮切换页码
+                            //bns: ['.prev', '.next'],//** 前后按钮配置class
+                            interval: 3000  //** 停顿时间
+                        })
+                    })
+                </script>
+                <div class="minfocus" id="minfsD4">
+                    <div class="minPic" id="minD4pic1">
+                        <div class="fcon" style="display: block;">
+                            <a target="_blank" href="show_detail/828.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/828">
+                                <p>坚持共商共建共享　加强“五通”交流合作 ——张高</p>
+                                <img class="policy_new" src="/wltf/Public/images/news/377ede2448c71b1485df251166f68758.jpg"
+                                     tppabs="http://www.bigdataobor.com/asset/images/news/377ede2448c71b1485df251166f68758.jpg"
+                                     style="opacity: 1; "></a>
+                        </div>
+                        <div class="fcon" style="display: none">
+                            <a target="_blank" href="show_detail/782.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/782">
+                                <p>张高丽出席博鳌亚洲论坛2017年年会开幕式并发表</p>
+                                <img class="policy_new" src="/wltf/Public/images/news/5b24abebaceb7181ad0848334a85b036.jpg"
+                                     tppabs="http://www.bigdataobor.com/asset/images/news/5b24abebaceb7181ad0848334a85b036.jpg"
+                                     style="opacity: 1; "></a>
+                        </div>
+                        <div class="fcon" style="display: none">
+                            <a target="_blank" href="show_detail/763.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/763">
+                                <p>“一带一路”将继续成为世界热议话题</p>
+                                <img class="policy_new" src="/wltf/Public/images/news/bb0181132aefa536db06b79b2e496e08.jpg"
+                                     tppabs="http://www.bigdataobor.com/asset/images/news/bb0181132aefa536db06b79b2e496e08.jpg"
+                                     style="opacity: 1; "></a>
+                        </div>
+                    </div>
+                    <div class="fbg">
+                        <div class="D4fBt" id="minD4fBt">
+                            <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i></i></a>
+                            <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i></i></a>
+                            <a href="javascript:void(0)" hidefocus="true" target="_self" class="current"><i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='main_newsfr fl' id="tab1">
+                <ul class="main_newsfr_title clearfix">
+                    <li><a href="policylist1.htm" target="_blank" class="up tab_t" id="one1"
+                           onmouseover="setContentTab('one',1,3)">政策动态</a></li>
+                    <li><a href="" target="_blank" class="tab_t" id="one2"
+                           onmouseover="setContentTab('one',2,3)">政策解读</a></li>
+                    <li><a href="" target="_blank" class="tab_t" id="one3"
+                           onmouseover="setContentTab('one',3,3)">领导讲话</a></li>
+                </ul>
+                <div style="display:block ;" class="block" id="con_one_1">
+                    <ul>
+                        <li><a class="tab_title" href="show_detail/868.htm" target="_blank">
+                            中华人民共和国和俄罗斯联邦关于进一步深化全面战略 </a>
+                            <span class="tab_span">2017-07</span></li>
+                        <li><a class="tab_title" href="show_detail/867.htm" target="_blank">
+                            中华人民共和国和俄罗斯联邦关于当前世界形势和重大 </a>
+                            <span class="tab_span">2017-07</span></li>
+                        <li><a class="tab_title" href="show_detail/847.htm" target="_blank">
+                            中阿巴联合新闻公报 </a>
+                            <span class="tab_span">2017-06</span></li>
+                        <li><a class="tab_title" href="show_detail/854.htm" target="_blank">
+                            金砖国家外长会晤新闻公报 </a>
+                            <span class="tab_span">2017-06</span></li>
+                        <li><a class="tab_title" href="show_detail/846.htm" target="_blank">
+                            上海合作组织成员国元首理事会会议新闻公报（全文） </a>
+                            <span class="tab_span">2017-06</span></li>
+                        <li><a class="tab_title" href="show_detail/845.htm" target="_blank">
+                            上海合作组织成员国元首阿斯塔纳宣言（全文） </a>
+                            <span class="tab_span">2017-06</span></li>
+                    </ul>
+                    <div class='main_news_more fr'><a href="policylist/57.htm" target="_blank" title='更多'></a></div>
+                </div>
+                <div style="display: none;" id="con_one_2">
+                    <ul>
+                        <li><a class="tab_title" href="show_detail/301.htm" target="_blank">
+                            盘点《2016年政府工作报告》中“一带一路”建设 </a>
+                            <span class="tab_span">2016-03</span></li>
+                        <li><a class="tab_title" href="show_detail/291.htm" target="_blank">
+                            政协委员建言“一带一路”：中央层面应加强对海外园 </a>
+                            <span class="tab_span">2016-03</span></li>
+                        <li><a class="tab_title" href="show_detail/270.htm" target="_blank">
+                            民主党派：借“一带一路”推动产能合作 </a>
+                            <span class="tab_span">2016-03</span></li>
+                        <li><a class="tab_title" href="show_detail/268.htm" target="_blank">
+                            宋芳秀：一带一路建设 人民币国际化和保险业发展 </a>
+                            <span class="tab_span">2016-03</span></li>
+                        <li><a class="tab_title" href="show_detail/272.htm" target="_blank">
+                            欧晓理：推进“一带一路”，中国做出了怎样的努力？ </a>
+                            <span class="tab_span">2016-02</span></li>
+                        <li><a class="tab_title" href="show_detail/72.htm" target="_blank">
+                            “一带一路”建设取得良好开局 </a>
+                            <span class="tab_span">2016-02</span></li>
+                    </ul>
+                    <div class='main_news_more fr'><a href="policylist/58.htm" target="_blank" title='更多'></a></div>
+                </div>
+                <div style="display: none;" id="con_one_3">
+                    <ul>
+                        <li><a class="tab_title" href="show_detail/903.htm" target="_blank">
+                            汪洋出席巴基斯坦独立70周年纪念大会并致辞 </a>
+                            <span class="tab_span">2017-08</span></li>
+                        <li><a class="tab_title" href="show_detail/894.htm" target="_blank">
+                            王毅：中国－东盟战略伙伴关系迈入全面发展新阶段 </a>
+                            <span class="tab_span">2017-08</span></li>
+                        <li><a class="tab_title" href="show_detail/892.htm" target="_blank">
+                            王毅：打造更高水平的中国–东盟战略伙伴关系 </a>
+                            <span class="tab_span">2017-08</span></li>
+                        <li><a class="tab_title" href="show_detail/891.htm" target="_blank">
+                            王毅：在共建“一带一路”中实现共同发展 </a>
+                            <span class="tab_span">2017-08</span></li>
+                        <li><a class="tab_title" href="show_detail/873.htm" target="_blank">
+                            杨洁篪：深入学习贯彻习近平总书记外交思想 不断谱 </a>
+                            <span class="tab_span">2017-07</span></li>
+                        <li><a class="tab_title" href="show_detail/872.htm" target="_blank">
+                            习近平在二十国集团领导人汉堡峰会上关于世界经济形 </a>
+                            <span class="tab_span">2017-07</span></li>
+                    </ul>
+                    <div class='main_news_more fr'><a href="policylist/59.htm" target="_blank" title='更多'></a></div>
+                </div>
+                <script type="text/javascript">
+                    function setContentTab(name, curr, n) {
+                        for (i = 1; i <= n; i++) {
+                            var menu = document.getElementById(name + i);
+                            var cont = document.getElementById("con_" + name + "_" + i);
+                            menu.className = i == curr ? "up tab_t" : "tab_t";
+                            if (i == curr) {
+                                cont.style.display = "block";
+                            } else {
+                                cont.style.display = "none";
+                            }
+                        }
+                    }
+                </script>
+                <!-- <div class='main_news_more fr'><a href="#" title='更多'></a></div> -->
+            </div>
+
+        </div>
+
+        <!-- 新闻end -->
+        <div class='main_news clearfix'>
+            <p class='main_topline'></p>
+            <div class='main_newsfl fl'>
+                <script type="text/javascript">
+                    Qfast.add('widgets', {
+                        path: "js/terminator2.2.min.js"/*tpa=http://www.bigdataobor.com/asset/js/terminator2.2.min.js*/,
+                        type: "js",
+                        requires: ['fx']
+                    });
+                    Qfast(false, 'widgets', function () {
+                        K.tabs({
+                            id: 'minfsD3',   //焦点图包裹id
+                            conId: "minD3pic1",  //** 大图域包裹id
+                            tabId: "minD3fBt",
+                            tabTn: "a",
+                            conCn: '.fcon', //** 大图域配置class
+                            auto: 1,   //自动播放 1或0
+                            effect: 'fade',   //效果配置
+                            eType: 'click', //** 鼠标事件
+                            pageBt: true,//是否有按钮切换页码
+                            //bns: ['.prev', '.next'],//** 前后按钮配置class
+                            interval: 3000  //** 停顿时间
+                        })
+                    })
+                </script>
+                <div class="minfocus" id="minfsD3">
+                    <div class="minPic" id="minD3pic1">
+                        <div class="fcon" style="display: block;">
+                            <a target="_blank" href="show_detail/180.htm" target="_blank">
+                                <p>欧亚联盟：普京地缘政治谋划的核心</p>
+                                <img src="/wltf/Public/images/news/1bac5c7a664bca29e6e5df50dc74776e.jpg" style="opacity: 1; "></a>
+                        </div>
+                        <div class="fcon" style="display: none">
+                            <a target="_blank" href="show_detail/181.htm" target="_blank">
+                                <p>欧盟执委会主席提出3000亿欧元的振兴欧盟投资计</p>
+                                <img src="/wltf/Public/images/news/378886511f50b773c64afffa58347a17.jpg" style="opacity: 1; "></a>
+                        </div>
+
+                    </div>
+                    <div class="fbg">
+                        <div class="D4fBt" id="minD3fBt">
+                            <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i></i></a>
+                            <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='main_newsfr fl' id="tab">
+                <ul class="main_newsfr_title clearfix">
+                    <li><a href="policylist/60.htm" tppabs="http://www.bigdataobor.com/index.php/policy/policylist/60"
+                           target="_blank" class="up tab_t" id="two1" onmouseover="setContentTab('two',1,3)">国外战略</a>
+                    </li>
+                    <li><a href="policylist/61.htm" tppabs="http://www.bigdataobor.com/index.php/policy/policylist/61"
+                           target="_blank" class="tab_t" id="two2" onmouseover="setContentTab('two',2,3)">国外政策</a></li>
+                    <!-- <li><a href="#"  class="tab_t"  id="two3" onmouseover="setContentTab('two',3,3)">文化交流</a></li> -->
+                </ul>
+                <div style="display:block ;" class="block" id="con_two_1">
+
+                    <ul>
+                        <li><a class="tab_title" href="show_detail/169.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/169" target="_blank">
+                            欧洲投资银行已在容克计划框架内投入超过500亿欧 </a>
+                            <span class="tab_span">2016-01</span></li>
+                        <li><a class="tab_title" href="show_detail/170.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/170" target="_blank">
+                            重新重视海洋：印尼全球海洋支点愿景评析 </a>
+                            <span class="tab_span">2015-06</span></li>
+                        <li><a class="tab_title" href="show_detail/165.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/165" target="_blank">
+                            日本计划加大亚洲基建投资 日媒称与中国争主导权 </a>
+                            <span class="tab_span">2015-05</span></li>
+                        <li><a class="tab_title" href="show_detail/180.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/180" target="_blank">
+                            欧亚联盟：普京地缘政治谋划的核心 </a>
+                            <span class="tab_span">2015-04</span></li>
+                        <li><a class="tab_title" href="show_detail/166.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/166" target="_blank">
+                            海上丝路战略面临最大挑战：印度推季风计划反制 </a>
+                            <span class="tab_span">2015-02</span></li>
+                        <li><a class="tab_title" href="show_detail/167.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/167" target="_blank">
+                            欧亚经济联盟元旦正式启动 </a>
+                            <span class="tab_span">2015-01</span></li>
+                    </ul>
+
+                    <div class='main_news_more fr'><a href="policylist/60.htm"
+                                                      tppabs="http://www.bigdataobor.com/index.php/policy/policylist/60"
+                                                      target="_blank" title='更多'></a></div>
+                </div>
+                <div style="display: none;" id="con_two_2">
+                    <ul>
+                        <li><a class="tab_title" href="show_detail/901.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/901" target="_blank">
+                            菲总统呼吁各利益相关方尽快推进并签署RCEP协定 </a>
+                            <span class="tab_span">2017-08</span></li>
+                        <li><a class="tab_title" href="show_detail/900.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/900" target="_blank">
+                            巴经济专家呼吁与中亚国家建立更多转口贸易区 </a>
+                            <span class="tab_span">2017-08</span></li>
+                        <li><a class="tab_title" href="show_detail/888.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/888" target="_blank">
+                            2016-17财年巴基斯坦农业信贷增长17.8% </a>
+                            <span class="tab_span">2017-07</span></li>
+                        <li><a class="tab_title" href="show_detail/887.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/887" target="_blank">
+                            巴基斯坦电力部门三角债超8000亿卢比，政府决定 </a>
+                            <span class="tab_span">2017-07</span></li>
+                        <li><a class="tab_title" href="show_detail/886.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/886" target="_blank">
+                            IMF：2017年巴基斯坦GDP增速预计将有明显 </a>
+                            <span class="tab_span">2017-07</span></li>
+                        <li><a class="tab_title" href="show_detail/890.htm"
+                               tppabs="http://www.bigdataobor.com/index.php/policy/show_detail/890" target="_blank">
+                            柬埔寨房地产市场依然火爆 上半年投资近50亿美元 </a>
+                            <span class="tab_span">2017-07</span></li>
+                    </ul>
+
+
+                    <div class='main_news_more fr'><a href="policylist/61.htm"
+                                                      tppabs="http://www.bigdataobor.com/index.php/policy/policylist/61"
+                                                      target="_blank" title='更多'></a></div>
+                </div>
+                <!-- <div class='main_news_more fr'><a href="#" title='更多'></a></div> -->
+            </div>
+
+        </div>
+
+        <!-- 新闻end -->
+
+
+    </div>
+    <!-- 左侧end -->
+    <div class='main_fr fl'>
+        <div class='main_hotnews'>
+            <p class='main_topline'></p>
+            <p class='main_hotnewsli clearfix'>
+                <i class='main_hotnewsli_top'></i> <span>热点新闻</span>
+            </p>
+            <div class='main_hotnews_table clearfix'>
+                <ul class='main_hotnews_tabletd clearfix'>
+                    <li><a href="../news/show_detail/869.htm"
+                           tppabs="http://www.bigdataobor.com/index.php/news/show_detail/869" target="_blank"><img
+                            src="/wltf/Public/images/news/100/3ec114109fd98f5e59c0a12476a7d0e1.jpg"
+                            tppabs="http://www.bigdataobor.com/asset/images/news/100/3ec114109fd98f5e59c0a12476a7d0e1.jpg"/>
+                        <b>习近平会见新加坡总理李显龙</b>
+                        <span>2017-07</span>
+                    </a>
+                    </li>
+                    <li><a href="../news/show_detail/857.htm"
+                           tppabs="http://www.bigdataobor.com/index.php/news/show_detail/857" target="_blank"><img
+                            src="/wltf/Public/images/news/100/8e68cf931ad677c2c4d16c6ee14cf00c.jpg"
+                            tppabs="http://www.bigdataobor.com/asset/images/news/100/8e68cf931ad677c2c4d16c6ee14cf00c.jpg"/>
+                        <b>习近平会见土库曼斯坦总统别尔德穆哈梅...</b>
+                        <span>2017-06</span>
+                    </a>
+                    </li>
+                    <li><a href="../news/show_detail/860.htm"
+                           tppabs="http://www.bigdataobor.com/index.php/news/show_detail/860" target="_blank"><img
+                            src="/wltf/Public/images/news/100/650bf795dce45afd7a47f8a288519fa2.jpg"
+                            tppabs="http://www.bigdataobor.com/asset/images/news/100/650bf795dce45afd7a47f8a288519fa2.jpg"/>
+                        <b>习近平会见俄罗斯总统普京</b>
+                        <span>2017-06</span>
+                    </a>
+                    </li>
+                    <li><a href="../news/show_detail/859.htm"
+                           tppabs="http://www.bigdataobor.com/index.php/news/show_detail/859" target="_blank"><img
+                            src="/wltf/Public/images/news/100/3acdb600cc05c6e7c4c1ec47ac708fbc.jpg"
+                            tppabs="http://www.bigdataobor.com/asset/images/news/100/3acdb600cc05c6e7c4c1ec47ac708fbc.jpg"/>
+                        <b>习近平会见塔吉克斯坦总统拉赫蒙</b>
+                        <span>2017-06</span>
+                    </a>
+                    </li>
+                    <li><a href="../news/show_detail/858.htm"
+                           tppabs="http://www.bigdataobor.com/index.php/news/show_detail/858" target="_blank"><img
+                            src="/wltf/Public/images/news/100/cac935c2492a8a9b21e8b01eccbd15dc.jpg"
+                            tppabs="http://www.bigdataobor.com/asset/images/news/100/cac935c2492a8a9b21e8b01eccbd15dc.jpg"/>
+                        <b>习近平会见印度总理莫迪</b>
+                        <span>2017-06</span>
+                    </a>
+                    </li>
+                    <li><a href="../news/show_detail/832.htm"
+                           tppabs="http://www.bigdataobor.com/index.php/news/show_detail/832" target="_blank"><img
+                            src="/wltf/Public/images/news/100/a61dc0eddd7f62547d4ae52b92cb31c1.jpg"
+                            tppabs="http://www.bigdataobor.com/asset/images/news/100/a61dc0eddd7f62547d4ae52b92cb31c1.jpg"/>
+                        <b>习近平会见柬埔寨首相洪森</b>
+                        <span>2017-05</span>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- 右侧end -->
+    <div class='clear'></div>
+
+</div>
+<!-- main end -->
+
+<!-- floot end -->
+
+
+<div class='float_modal' style='display:none;'>
+    <div class="o_login_in_wrap">
+        <div class="o_login_in">
+            <form action="http://www.bigdataobor.com/index.php/login/login_into?back_url=" name="offer_login"
+                  method="post">
+                <input type="hidden" name="ci_csrf_token" value="">
+                <h3>登录系统</h3>
+                <div class="o_login_in_con">
+                    <div class="o_login_title">用户名</div>
+                    <div class="o_login_input">
+                        <input type="text" name="account" id="account" autocomplete="off"/>
+                    </div>
+                    <div class="o_login_title">密码</div>
+                    <div class="o_login_input">
+                        <input type="password" name="password" id="password" autocomplete="off"/>
+                    </div>
+                    <div class="o_login_title">验证码</div>
+                    <div class="o_login_input">
+                        <input type="text" name="cCode" id="cCode" class="f_l mr8" autocomplete="off"/>
+                        <span id="ccodeImage" style='width: 90px;'></span><em onclick="changeImage()"></em>
+                    </div>
+                </div>
+                <div class="o_login_btn login_submit"><a href="#">登&nbsp;&nbsp;&nbsp;&nbsp;录</a></div>
+                <div class="o_login_error_tips" style=' display: block;'></div>
+
+                <div class="o_login_title">
+                    <a href="../login/register.htm" tppabs="http://www.bigdataobor.com/index.php/login/register"
+                       target="_blank" style='float: right;'>注册账号</a>
+                    <a href="../login/forget_pwd.htm" tppabs="http://www.bigdataobor.com/index.php/login/forget_pwd"
+                       target="_blank">忘记密码？</a>
+                </div>
+            </form>
+            <div class="o_login_close"><a href='#'>X</a></div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/denglu/offer.js" tppabs="http://www.bigdataobor.com/asset/js/denglu/offer.js"></script>
+
+<script type="text/javascript">
+    var token_name = 'ci_csrf_token';
+    var csrf_hash = '';
+    var url_info = "../login/captcha_code.htm"/*tpa=http://www.bigdataobor.com/index.php/login/captcha_code*/;
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        var $footflcountry = $('.floot_content_fl .floot_content_li:eq(0)').remove();
+        $footflcountry.insertBefore(".floot_content_fl .floot_content_li:eq(2)");
+
+
+        var crumbs = $('.main_crumbs>i').attr("class");
+        if (crumbs == null || crumbs == "") {
+
+        } else {
+            var crumbs = $('.main_crumbs>i').attr("class");
+            var loc = crumbs.substring(crumbs.lastIndexOf('_') + 1, crumbs.length);//获取面包屑来源
+            var cl = '.' + loc;
+            $('.header_nav ').find(cl).parent().addClass('action');  //一级导航选中效果
+
+        }
+
+
+    });
+
+
+    function datasearchshow() , 200);
+        var bodyh = $(window).height();
+        $('body').css({height: bodyh + "px", overflow: 'hidden'});
+        changeImage();
+    }
+
+    jQuery('.o_login_close a').on('click', function () {
+        $('.float_modal').hide();
+        $('.o_login_in_wrap').animate({top: '2000'}, 100);
+        $('body').css({overflow: 'auto', height: "auto"});
+    });
+
+</script>
+</body>

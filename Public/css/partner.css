@@ -1,0 +1,240 @@
+.ft20{font-size:2.5rem;}
+.ft18{font-size:1.8rem;}
+.ft16{font-size:1.6rem;}
+.dis{display:none;}
+/* 合作伙伴 */
+#wrap{
+    min-width:320px;
+}
+#wrap,.con-box1{
+    width:80%;
+    margin:0 auto;
+    overflow:hidden;
+}
+.con-box{
+    border:0.1rem solid #ccc;
+    position:relative;
+}
+.pn a{
+    position:absolute;
+    top:35%;
+}
+.pn1 a{
+    position:absolute;
+    top:45%;
+}
+.prev,.prev1{
+    left:0;
+}
+.next,.next1{
+    right:0;
+    text-align:right;
+}
+.pn img,.pn1 img{
+    width:50%;
+}
+.con-box1{
+    height:150px;
+    padding:0.1rem;
+    position:relative;
+}
+.con-box ul{
+    margin:0;
+    position:absolute;
+    left:0;
+    top:0;
+    padding-top:1rem;
+}
+.con-box ul li img,.op-box img{
+    width:100%;
+}
+.con-box ul li{
+    width:215px;
+    height:150px;
+    margin:0 0.5rem;
+    float:left;
+}
+.op-box{
+    margin:3% 0;
+    padding:1.5% 1%;
+    text-justify: inter-ideograph;
+    text-align:justify;
+    -webkit-box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #ccc;
+    -moz-box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #ccc;
+    -ms-box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #ccc;
+    box-shadow: 0 0.3rem 0.3rem 0.3rem #ccc;
+}
+.ourPartner-box{
+    text-align:center;
+}
+.big-show-box .btn{
+    margin:1rem;
+}
+/* 大图预览 */
+.big-show-box{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.5);
+    position:absolute;
+    left:0;
+    top:0;
+}
+.big-show{
+    width:500px;
+    height:300px;
+    overflow:hidden;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-250px;
+    margin-top:-150px;
+}
+.big-show>ul{
+    position:absolute;
+    top:0;
+    left:0;
+}
+/* 合作机构 */
+.our-machanism-box{
+    padding:1rem 0;
+}
+.macha-form>div{
+    width:50%;
+}
+#sort{
+    width:40%;
+}
+.search{
+    width:70%;
+    padding:0 1rem;
+}
+#sort,.sure,.search,.search1{
+    height:3rem;
+    border:0.1rem solid #ccc;
+}
+.sure,.search1{
+    margin-top:-0.25rem;
+}
+.search1{
+    margin-left:-0.4rem;
+}
+.line{
+    margin:1rem 0;
+}
+/* 办事处 */
+.section1{
+    margin-bottom:0.5rem;
+    border-bottom:0.1rem solid #f1f1f1;
+}
+.section1 h1{
+    padding:0.5rem 2rem;
+    cursor:pointer;
+    margin:0;
+}
+.section-nr{
+    background:#f0f0f0;
+}
+.rotate{
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+.section1 h1 span{
+    border-width:0.8rem;
+    border-style:solid;
+    border-color:#666 transparent transparent transparent;
+    margin-top:0.5rem;
+}
+.secnr-top img{
+    width:6rem;
+    height:6rem;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    margin:0 1rem;
+}
+.secnr-top ul li{
+    font-size:1.6rem;
+    margin:1rem 0;
+}
+.secnr-top ul li .glyphicon-map-marker{
+    color:#FA4342;
+}
+.secnr-top ul li .glyphicon-earphone{
+    color:#09B532;
+}
+.secnr-bottom img{
+    max-width:30rem;
+    max-height:20rem;
+    margin:1rem 0;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.secnr-bottom a:hover img{
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.login{
+    margin-bottom:1rem;
+}
+.login button{
+    color:#fff;
+    background:#00C0C2;
+}
+.login button:hover{
+    color:#fff;
+    background:#20b2aa;
+}
+/* 分辨率 > 320 */
+@media (min-width:320px) and (max-width:960px){
+    #wrap{
+        width:100%;
+        padding:0 1%;
+        box-sizing:border-box;
+    }
+}
+/*  350 > 分辨率 > 320 */
+@media (min-width:320px) and (max-width:350px){
+    .macha-form>div{
+        width:100%;
+        text-align:center;
+    }
+    #sort{
+        width:65%;
+        margin-bottom:1rem;
+    }
+    .search{
+        width:80%;
+    }
+}
+/* 500 > 分辨率 > 320 */
+@media (min-width:320px) and (max-width:500px){
+    .big-show{
+        width:80%;
+        height:300px;
+        position:absolute;
+        left:10%;
+        top:50%;
+        margin-left:0;
+        margin-top:-150px;
+    }
+    .section-nr .col-xs-8{
+        width:100%;!important;
+    }
+    .secnr-bottom{
+        display:none;
+    }
+    .login{
+        text-align:center;
+    }
+}

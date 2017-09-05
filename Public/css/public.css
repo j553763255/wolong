@@ -1,0 +1,329 @@
+body{background: none;}
+#o_container{width:1200px; margin:0 auto;}
+#o_banner{height:90px;}
+#o_banner #logo{padding:10px 24px 0px 24px;}
+#o_banner #info{padding:23px 0 0 0; font-size:12px; margin-right:20px; color:#999;}
+#o_banner #info .logout{margin-left:10px; color:#999;}
+.lo_nav{background: url("../images/o_bg_nav.png"/*tpa=http://www.bigdataobor.com/asset/images/o_bg_nav.png*/) -90px 0 repeat-x;height:40px; }
+ul.o_nav {height:40px; list-style:none; padding:0 0 0 12px; margin:0 auto; font-weight:bold; font-size:16px;width: 600px; }
+ul.o_nav  li{float:left; margin-right:10px; width:136px;}
+ul.o_nav  li a{color:#FFF; padding-top:12px; height:28px; display:block; text-align:center;}
+ul.o_nav  li:hover a{background:url("../images/o_hover.png"/*tpa=http://www.bigdataobor.com/asset/images/o_hover.png*/) bottom center no-repeat; text-decoration:none;}
+ul.o_nav li.on a{ padding-top:10px;margin-top: 4px;height:26px; background:#fff;text-decoration:none;border-radius: 6px 6px 0 0 ;
+    border-top:1px solid #004585;color: #004585; }
+ul.o_nav  li a:visited{ text-decoration:none;}
+#o_board{ margin:0 auto;overflow:hidden; border-left:1px solid #D2D2D2;height:auto !important; height:500px; min-height:500px; background:#eaeaea;}
+#o_board ul#menu{width:200px; background:#EEE; border:1px solid #D2D2D2; border-left:0; border-right:0; border-top:4px solid #E5E5E5; margin:0 0 8px 0; padding:0 0 2px 0; list-style:none;}
+#o_board ul#menu li{background:url("../images/o_bg_menu.gif"/*tpa=http://www.bigdataobor.com/asset/images/o_bg_menu.gif*/) top repeat-x #EEEFFF;}
+#o_board ul#menu li div{padding:11px 0 7px 44px; color:#0082E4; font-weight:bold; font-size:16px; border-top:1px solid #E0E0E0; border-bottom:1px solid #C2C2C2;}
+#o_board ul#menu li div.goods{background:url("../images/o_ico.gif"/*tpa=http://www.bigdataobor.com/asset/images/o_ico.gif*/) 20px 14px no-repeat;}
+#o_board ul#menu li div.orders{background:url("../images/o_ico.gif"/*tpa=http://www.bigdataobor.com/asset/images/o_ico.gif*/) 20px -24px no-repeat;}
+#o_board ul#menu li div.tax{background:url("../images/o_ico.gif"/*tpa=http://www.bigdataobor.com/asset/images/o_ico.gif*/) 20px -60px no-repeat;}
+#o_board ul#menu li div.info{background:url("../images/o_ico.gif"/*tpa=http://www.bigdataobor.com/asset/images/o_ico.gif*/) 20px -96px no-repeat;}
+#o_board ul#menu li div.company{background:url("../images/o_ico.gif"/*tpa=http://www.bigdataobor.com/asset/images/o_ico.gif*/) 20px -132px no-repeat;}
+#o_board ul#menu li div.money{background:url("../images/o_ico.gif"/*tpa=http://www.bigdataobor.com/asset/images/o_ico.gif*/) 20px -168px no-repeat;}
+
+#o_board ul#menu li ul{list-style:none; margin:0; padding:0;}
+#o_board ul#menu li ul li{background:none; border-bottom:1px solid #CCC;}
+#o_board ul#menu li ul li a{color:#666; padding:10px 0 10px 52px; display:block;}
+#o_board ul#menu li ul li a:hover,#o_board ul#menu li ul li a.on{color:#FFF; background:#0082E4; text-decoration:none;}
+.content_wrap{ float:left; background:#fff; padding-left:9px; border-left:1px solid #D2D2D2; width:989px;}
+#o_board #content ul#bread{margin:0; padding:8px 2px 4px 2px;list-style:none; height:25px; }
+#o_board #content ul#bread li{float:left; margin-right:8px; display:inline; color:#999;}
+#o_board #content ul#bread li.cur{color:#000;}
+#o_board #content ul#bread li a{color:#999;}
+#o_board #content ul#bread li a:hover{color:#EE8800;}
+
+/*footer*/
+#o_footer{padding:7px 0; background:#2d2d2d;}
+#o_footer ul{width:370px; margin:0 auto; padding:8px 0 8px 0;}
+#o_footer ul li{float:left; margin:0 20px;}
+#o_footer ul li a{color:#666;white-space:nowrap; word-break:none;}
+#o_footer #copyright{color:#EEE; text-align:center; font-size:12px;}
+#o_board ul#menu li ul li:last-child{ border-bottom:0;}
+/*高度为36的灰色按钮*/ 
+.btn_gray_36:link,
+.btn_gray_36:vistied,
+.btn_gray_36:acitive,
+.btn_gray_36:hover{ text-decoration:none;color:#5c5c5c; }
+.btn_gray_36{ float:left; height:36px; display:inline; font-weight:bold; line-height:36px;background:url("../images/btn_gray_36.png"/*tpa=http://www.bigdataobor.com/asset/images/btn_gray_36.png*/) 100% -36px no-repeat; padding-right:4px;color:#5c5c5c; overflow:hidden;}
+.btn_gray_36 span{color:#5c5c5c;  cursor:pointer; height:36px; float:left; background:url("../images/btn_gray_36.png"/*tpa=http://www.bigdataobor.com/asset/images/btn_gray_36.png*/) 0 0 no-repeat; padding:0 12px 0 17px; overflow:hidden;}
+.btn_gray_36_hv{ text-decoration:none; background-position:100% -108px;}
+.btn_gray_36_clk{ text-decoration:none;  background-position:100% -180px;}
+.btn_gray_36_hv span{ background-position:0 -72px;}
+.btn_gray_36_clk span{ background-position:0 -144px;}
+
+/*高度为36的橙色按钮*/ 
+.btn_orange_36:link,
+.btn_orange_36:vistied,
+.btn_orange_36:acitive,
+.btn_orange_36:hover{ text-decoration:none;color:#fff; }
+.btn_orange_36{ float:left; height:36px; display:inline; font-weight:bold; line-height:36px;background:url("../images/btn_orange_36.png"/*tpa=http://www.bigdataobor.com/asset/images/btn_orange_36.png*/) 100% -36px no-repeat; padding-right:4px;color:#fff; overflow:hidden;}
+.btn_orange_36 span{color:#fff;  cursor:pointer; height:36px; float:left; background:url("../images/btn_orange_36.png"/*tpa=http://www.bigdataobor.com/asset/images/btn_orange_36.png*/) 0 0 no-repeat; padding:0 12px 0 17px; overflow:hidden;}
+.btn_orange_36_hv{ text-decoration:none; background-position:100% -108px;}
+.btn_orange_36_clk{text-decoration:none;  background-position:100% -180px;}
+.btn_orange_36_hv span{ background-position:0 -72px;}
+.btn_orange_36_clk span{ background-position:0 -144px;}
+/*高度为26的灰色按钮*/ 
+.btn_gray_26:link,
+.btn_gray_26:vistied,
+.btn_gray_26:acitive,
+.btn_gray_26:hover{ text-decoration:none;color:#5c5c5c; }
+.btn_gray_26{ float:left; height:26px; display:inline; line-height:26px;background:url("../images/btn_gray_26.png"/*tpa=http://www.bigdataobor.com/asset/images/btn_gray_26.png*/) 100% -26px no-repeat; padding-right:4px;color:#5c5c5c; overflow:hidden;}
+.btn_gray_26 span{color:#5c5c5c;  cursor:pointer; height:26px; float:left; background:url("../images/btn_gray_26.png"/*tpa=http://www.bigdataobor.com/asset/images/btn_gray_26.png*/) 0 0 no-repeat; padding:0 12px 0 17px; overflow:hidden;}
+.btn_gray_26_hv{ text-decoration:none; background-position:100% -78px;}
+.btn_gray_26_clk{ text-decoration:none;  background-position:100% -130px;}
+.btn_gray_26_hv span{ background-position:0 -52px;}
+.btn_gray_26_clk span{ background-position:0 -104px;}
+
+/*高度为26的绿色按钮*/ 
+.btn_green_26:link,
+.btn_green_26:vistied,
+.btn_green_26:acitive,
+.btn_green_26:hover{ text-decoration:none;color:#fff; }
+.btn_green_26{ float:left; height:26px; display:inline; line-height:26px;background:url("../images/btn_green_26.png"/*tpa=http://www.bigdataobor.com/asset/images/btn_green_26.png*/) 100% -26px no-repeat; padding-right:4px;color:#fff; overflow:hidden;}
+.btn_green_26 span{color:#fff;  cursor:pointer; height:26px; float:left; background:url("../images/btn_green_26.png"/*tpa=http://www.bigdataobor.com/asset/images/btn_green_26.png*/) 0 0 no-repeat; padding:0 12px 0 17px; overflow:hidden;}
+.btn_green_26_hv{ text-decoration:none; background-position:100% -78px;}
+.btn_green_26_clk{ text-decoration:none;  background-position:100% -130px;}
+.btn_green_26_hv span{ background-position:0 -52px;}
+.btn_green_26_clk span{ background-position:0 -104px;}
+
+/*高度为26的橙色按钮*/ 
+.btn_orange_26:link,
+.btn_orange_26:vistied,
+.btn_orange_26:acitive,
+.btn_orange_26:hover{ text-decoration:none;color:#fff; }
+.btn_orange_26{ float:left; height:26px; display:inline; line-height:26px;background:url("../images/btn_orange_26.png"/*tpa=http://www.bigdataobor.com/asset/images/btn_orange_26.png*/) 100% -26px no-repeat; padding-right:4px;color:#fff; overflow:hidden;}
+.btn_orange_26 span{color:#fff;  cursor:pointer; height:26px; float:left; background:url("../images/btn_orange_26.png"/*tpa=http://www.bigdataobor.com/asset/images/btn_orange_26.png*/) 0 0 no-repeat; padding:0 12px 0 17px; overflow:hidden;}
+.btn_orange_26_hv{ text-decoration:none; background-position:100% -78px;}
+.btn_orange_26_clk{text-decoration:none;  background-position:100% -130px;}
+.btn_orange_26_hv span{ background-position:0 -52px;}
+.btn_orange_26_clk span{ background-position:0 -104px;}
+
+.btn_blue_26:link,
+.btn_blue_26:vistied,
+.btn_blue_26:acitive,
+.btn_blue_26:hover{ text-decoration:none;color:#fff; }
+.btn_blue_26{ float:left; height:26px; display:inline; line-height:26px;background:url("../images/btn_blue_26.png"/*tpa=http://www.bigdataobor.com/asset/images/btn_blue_26.png*/) 100% -26px no-repeat; padding-right:4px;color:#fff; overflow:hidden;}
+.btn_blue_26 span{color:#fff;  cursor:pointer; height:26px; float:left; background:url("../images/btn_blue_26.png"/*tpa=http://www.bigdataobor.com/asset/images/btn_blue_26.png*/) 0 0 no-repeat; padding:0 12px 0 17px; overflow:hidden;}
+.btn_blue_26_hv{ text-decoration:none; background-position:100% -78px;}
+.btn_blue_26_clk{text-decoration:none;  background-position:100% -130px;}
+.btn_blue_26_hv span{ background-position:0 -52px;}
+.btn_blue_26_clk span{ background-position:0 -104px;}
+
+/*供应商翻页*/
+.offerPages{ padding:8px 12px 30px 0; font-size:12px;}
+.offerPages .record{ height:20px; line-height:20px; color:#808080; float:left;}
+.offerPages .pages{ float:left; margin-right:7px; display:inline;}
+.offerPages .pages a{float:left; font-size:12px; width:20px; height:20px; background:url("../images/o_btn_pages.png"/*tpa=http://www.bigdataobor.com/asset/images/o_btn_pages.png*/) 0 0 no-repeat; margin-right:5px; display:inline; text-align:center; line-height:20px; color:#808080; padding:0;}
+.offerPages .pages a:hover,.offerPages .pages a.on{ text-decoration:none; background-position:0 -21px; color:#fff;}
+.offerPages .pages a.page_btn{ width:38px; background:url("../images/btn_pages_prev.png"/*tpa=http://www.bigdataobor.com/asset/images/btn_pages_prev.png*/) 0 0 no-repeat;}
+.offerPages .pages a.page_btn:hover{ color:#808080;  background:url("../images/btn_pages_prev.png"/*tpa=http://www.bigdataobor.com/asset/images/btn_pages_prev.png*/) 0 0 no-repeat;}
+.offerPages .pages a.page_btn.unclick{ background-position:0 -21px; cursor:default;}
+
+.offerPages .pages span{ float:left; width:17px; color:#808080;}
+.offerPages .go{ float:left;}
+.offerPages .go span{ float:left; padding:0 5px;}
+.offerPages .go input{ float:left; margin-bottom:0; width:20px; padding:0 2px; height:20px; line-height:20px;border:1px solid #bdbdbd;}
+.offerPages .go a{ float:left; width:20px; line-height:20px; text-align:center; height:20px; background:url("../images/o_btn_pages.png"/*tpa=http://www.bigdataobor.com/asset/images/o_btn_pages.png*/) 0 0 no-repeat; color:#808080;}
+.offerPages .go a:hover{ text-decoration:none;}
+/*end*/
+
+/*时间控件相关样式*/
+.time_control{ position:relative;}
+.time_control em{ position:absolute; width:17px; height:24px; background:url("../images/input_timer.gif"/*tpa=http://www.bigdataobor.com/asset/images/input_timer.gif*/) 0 0 no-repeat; right:77px; top:3px;}
+
+/*弹窗*/
+
+/*public弹窗*/
+.o_alert{ display:none; border:1px solid #dad7d4; border-radius:3px; box-shadow:0 0 5px #ccc;font-family:"微软雅黑",Microsoft YaHei; background:#fff; z-index:100; position:fixed; left:50%; top:50%;}
+.o_alert h3{ height:48px; line-height:48px; border-bottom:2px solid #ebebeb; background:#fafafa; font-size:18px; color:#ec8500; font-weight:bold; padding-left:52px;}
+.o_alert_close{ float:right; font-size:26px; color:#999; margin:0 17px 0 0; display:inline; cursor:pointer;}
+
+/*文件上传*/
+.upload_file{ float:left; position:relative; overflow:hidden;}
+.upload_file input{ position:absolute; right:0;top:0; opacity:0; cursor:pointer; filter:alpha(opacity=0); font-size:100px;}
+
+/*插入图片*/
+.o_alert_insert_img{ width:900px; margin-left:-450px;}
+.o_alert_insert_img_con{ padding:40px 49px 0 51px;}
+.o_alert_insert_img_con_t{ height:31px; line-height:30px; border-bottom:4px solid #f09800;}
+.o_alert_insert_img_con_t .div{ float:left; width:168px; color:#969696; font-size:12px;}
+.o_alert_insert_img_con_t .title{ float:left; border:1px solid #f2f2f2; border-bottom:0; background:#f5f5f5; border-radius:3px 3px 0 0; width:184px; }
+.o_alert_insert_img_con_t .title a{ float:left; width:92px; height:30px; line-height:30px; text-align:center; color:#555;}
+.o_alert_insert_img_con_t .title a:hover{ text-decoration:none;}
+.o_alert_insert_img_con_t .title a.on{ color:#fff; text-decoration:none; background:#f09800; border-radius:2px 2px 0 0 ;}
+.o_alert_insert_img_con_t_tabs{ display:none;}
+.o_alert_insert_img_con_chose{ padding:20px 0 16px 36px;}
+.o_alert_insert_img_con_upload{ padding:0 0 0 307px; line-height:80px; background:url("../images/infor_tips.png"/*tpa=http://www.bigdataobor.com/asset/images/infor_tips.png*/) 281px 32px no-repeat; color:#646464; font-size:12px; height:145px;}
+.o_alert_insert_img_con_upload a{ color:#0386d9; }
+.o_alert_insert_img_show{ width:798px; height:155px; border:1px solid #e6e6e6; color:#646464;}
+.o_alert_insert_img_show_title{ height:35px; background:#f5f5f5; line-height:34px; padding-left:34px; font-size:12px;}
+.o_alert_insert_img_show_title .tips{ padding-left:26px; background:url("../images/o_alert_insert_img_show_title_tips.gif"/*tpa=http://www.bigdataobor.com/asset/images/o_alert_insert_img_show_title_tips.gif*/) 6px 11px no-repeat; float:left; color:#bdbdbd;}
+.o_alert_insert_img_show_wrap{ width:729px; height:62px; position:relative; margin:14px 0 0 12px;}
+.o_alert_insert_img_show_wrap .ul li{ position:absolute; top:0; width:100px; height:100px; overflow:hidden; border:1px solid #ddd; border-radius:3px; background:#f0f0f0;top:0; line-height:100px; text-align:center; font-size:24px; color:#ababab;}
+.o_alert_insert_img_show_wrap .ul li .img{ width:100px; height:100px; overflow:hidden; text-align:center; vertical-align:middle; display:table-cell; position:relative; *display: block;*font-size: 87px;*font-family:Arial; overflow:hidden; }
+.o_alert_insert_img_show_wrap .ul li .img img{vertical-align:middle;  }
+.o_alert_insert_img_show_wrap .ul li.mr0{ margin-right:0;}
+.o_alert_insert_img_show_list{  position:absolute; left:0; top:0; height:62px; width:0;}
+.o_alert_insert_img_show_list li{ cursor:pointer;}
+.o_alert_insert_img_show_num{ height:62px;}
+.o_alert_insert_img_show_wrap .ul li:nth-child(7n){ margin-right:0;}
+.o_alert_insert_img_show_wrap .ul li img{ vertical-align:baseline;}
+.o_alert_insert_img_close{ width:16px; height:16px; position:absolute; right:0; top:0; background:url("../images/checked1.png"/*tpa=http://www.bigdataobor.com/asset/images/checked1.png*/) 0 0 no-repeat; cursor:pointer;}
+.o_alert_insert_img_close:hover{ background-position:0 -17px;}
+.o_alert_insert_img_btns{ padding:24px 0 24px 328px; height:36px;}
+.o_alert_insert_img_btns .btn_orange_36 span{ padding:0 51px 0 55px;}
+.o_alert_insert_img_show_img{ padding-left:35px; text-align:center; vertical-align:middle; display:table-cell; position:relative; *display: block;*font-size: 87px;*font-family:Arial; overflow:hidden;}
+.o_alert_insert_img_show_img li{ width:100px; margin:0 7px 14px 0;display:inline; height:100px; position:relative; float:left; border:1px solid #ddd;}
+.o_alert_insert_img_show_img li.hv,.o_alert_insert_img_show_img li.on{ border:1px solid green;}
+.o_alert_insert_img_show_img li div{ display:table-cell; width:100px; height:100px; overflow:hidden; text-align:center; vertical-align:middle; position:relative; *display: block;*font-size: 87px;*font-family:Arial; overflow:hidden; }
+.o_alert_insert_img_show_img img{vertical-align:middle;}
+.o_alert_insert_img_show_add{ width:16px; height:16px; background:url("../images/checked2.gif"/*tpa=http://www.bigdataobor.com/asset/images/checked2.gif*/) 0 0 no-repeat; position:absolute; right:0; bottom:0; cursor:pointer; display:none;}
+.o_alert_insert_img_upload_show .offerPages{ padding-bottom:10px;}
+.o_alert_insert_img_comp{ padding:50px 0 12px 12px; width:789px; height:202px; position:relative;}
+.o_alert_insert_img_comp_c{ padding-bottom:36px; width:248px; margin:0 auto;}
+.o_alert_insert_img_my_comp_tips{}
+.o_alert_insert_img_comp_list_c .new{ float:left; margin-left:10px; display:inline; color:#0386d9; font-size:12px; line-height:26px;}
+.o_alert_insert_img_comp_list em{ color:#646464; float:left; font-size:12px;}
+.o_alert_insert_img_comp_list{ height:36px;}
+.o_alert_insert_img_comp_list_up .upload_file{ float:left; width:142px; height:36px;}
+.o_alert_insert_img_comp_list_note{ line-height:74px; color:#f76210;}
+.o_alert_insert_img_my_comp_tips_com{ height:18px; line-height:18px; font-size:12px;border:1px solid; padding-left:27px; background:url("../images/o_alert_insert_img_my_comp_tips_com.png"/*tpa=http://www.bigdataobor.com/asset/images/o_alert_insert_img_my_comp_tips_com.png*/) no-repeat;}
+.o_alert_insert_img_my_comp_tips{ border-color:#ffd386; color:#969696; background-position:5px 0; background-color:#fff4e0; width:506px;}
+.o_alert_insert_img_my_comp_right{ border-color:#b6dfb8; color:#7a7979; background-position:5px -38px; background-color:#e8ffe9; width:146px;}
+.o_alert_insert_img_my_comp_wrong{ border-color:#ffcccc; color:#7a7979; background-position:5px -19px; background-color:#ffecec; width:530px;}
+.o_alert_insert_img_comp_pos{ width:256px;overflow-y:auto; height:220px; position:absolute; right:0; top:10px;}
+.js_o_alert_insert_img_show_img li.on .o_alert_insert_img_show_add{ display:block;}
+.js_o_alert_insert_img_show_img li .o_alert_insert_img_show_add{ display:none;}
+
+/*提示框*/
+.o_alert_tips{ width:480px; margin-left:-240px;}
+.o_alert_tips h3{ padding-left:21px;}
+.o_alert_tips_con{ height:72px; line-height:72px;text-align:center; font-size:22px; color:#8c8c8c; font-weight:bold; padding:105px 0 23px 0; border-bottom:2px solid #efefef;  }
+.o_alert_tips_con1{background:url("../images/gree_right.gif"/*tpa=http://www.bigdataobor.com/asset/images/gree_right.gif*/) 50% 43px no-repeat;}
+.o_alert_tips_btn1{ padding:15px 0 15px 195px;}
+.o_alert_tips_btn1 .btn_orange_36 span{ padding:0 30px 0 34px;}
+.o_alert_tips_con2{ background:url("../images/orange_warning.gif"/*tpa=http://www.bigdataobor.com/asset/images/orange_warning.gif*/) 50% 32px no-repeat; }
+.o_alert_tips_con3{background:url("../images/circle_warning.gif"/*tpa=http://www.bigdataobor.com/asset/images/circle_warning.gif*/) 50% 43px no-repeat;}
+.o_alert_tips_con4{background:url("../images/circle_wrong.gif"/*tpa=http://www.bigdataobor.com/asset/images/circle_wrong.gif*/) 50% 43px no-repeat;}
+.o_alert_tips_btn2{ padding:15px 0 15px 141px;}
+.o_alert_tips_btn2 .btn_orange_36 span{ padding:0 30px 0 34px;}
+.o_alert_tips_btn2 .btn_gray_36 span{ padding:0 30px 0 34px;}
+.o_alert_tips_con_pl21{ padding-left:21px;}
+.o_alert_tips_con_pl11{ padding-left:11px;}
+.o_alert_tips_con5{ padding:52px 0 41px 52px;}
+.o_alert_tips_con5 span{ height:26px; line-height:26px; float:left; color:#ec8500; width:67px;}
+.o_alert_tips_con5 input{ width:243px; margin-bottom:0;}
+.o_alert_tips_sale{ padding: 36px 0 32px 0; border-bottom:2px solid #efefef;}
+.o_alert_tips_sale .form-horizontal .control-group{ margin-bottom:0;}
+.o_alert_tips_sale .form-horizontal .control-group.mb11{ margin-bottom:11px;}
+.o_alert_tips_sale .form-horizontal .controls{ margin-left:136px;}
+.o_alert_tips_sale .form-horizontal .control-label{ width:136px;}
+#js_o_alert_15{ z-index:202;}
+.o_alert_tips_check{ padding:23px 34px 30px 30px;border-bottom:2px solid #efefef;}
+.o_alert_tips_check h5{ font-weight:normal; line-height:36px;}
+.o_alert_tips_check p{ line-height:26px;}
+
+
+/*插入图片弹窗里面的蒙层*/
+.make_new_photo_book{display:none; top: 107px;z-index:202;}
+.img_div{overflow:auto;z-index:201; position:absolute; top:130px; right:50px;}
+.photo_book_mark{width:100%; height:100%; background:#fff; z-index:200; opacity:0.3;filter:alpha(opacity=30); position:absolute; left:0; top:0; display:none;}
+/*end弹窗*/
+
+/*蒙层样式*/
+.alert_mark{ background:#000; opacity:0.3; filter:alpha(opacity=30); z-index:10; position:absolute; left:0; top:0;}
+/*input框正确提示*/
+.o_input_right{ width:14px; height:16px; margin:6px 0 0 12px; display:inline; float:left; background:url("../images/input_tips.png"/*tpa=http://www.bigdataobor.com/asset/images/input_tips.png*/) -17px 0 no-repeat; }
+
+/*img_loading*/
+.img_loading_wrap{ float:left; padding-right:17px; width:160px; height:119px; position:relative;}
+.img_loading_wrap .img_loading{ width:70px; height:70px; position:absolute; left:50%; top:50%; margin-left:-40px; margin-top:-35px; background:url("../images/img_loading.gif"/*tpa=http://www.bigdataobor.com/asset/images/img_loading.gif*/) 0 0 no-repeat; }
+
+/*模拟select框*/
+.public_select{ position:relative; cursor:pointer;}
+.public_select_con{ float:left; }
+.public_select_btn{ float:left;}
+.public_select_list{ position:absolute; left:0; z-index:10; display:none; padding-top:5px;}
+.public_select_list li{ padding-bottom:3px;}
+.public_select_list li a{ display:block; padding-left:16px;}
+.public_select_list li a:hover{ text-decoration:none;}
+
+/*图片编辑*/
+.img_edit{ position:relative; width:120px; height:120px; overflow:hidden;}
+.img_edit_num{ position:absolute; bottom:15px; z-index:10; left:10px; color:#fff; font-family:"arial","宋体"; font-size:18px; font-weight:bold;}
+.img_edit_mark{ position:absolute; height:48px; width:100%; background:url("../images/o_albums_manage_list_mark.png"/*tpa=http://www.bigdataobor.com/asset/images/o_albums_manage_list_mark.png*/) 0 0 repeat-x; left:0; bottom:0;}
+.img_edit_del{ position:absolute; width:22px; bottom:11px; right:14px; height:26px; background:url("../images/ablums_edit.png"/*tpa=http://www.bigdataobor.com/asset/images/ablums_edit.png*/) 0 -54px no-repeat;}
+.img_edit_del:hover{ background-position:0 -81px;}
+.img_edit_edit{ position:absolute; width:27px; height:26px; left:15px; bottom:11px; background:url("../images/ablums_edit.png"/*tpa=http://www.bigdataobor.com/asset/images/ablums_edit.png*/) 0 0 no-repeat;}
+.img_edit_edit:hover{ background-position:0 -27px;}
+.img_edit_name{ line-height:20px; height:20px; background:#fff; text-align:center; color:#646464; font-family:"arial","宋体";}
+
+/*进度条*/
+.o_progess_bar{ position:relative;}
+.o_progess_bar em{ position:absolute; left:0; top:0;}
+
+/*公共的商品导航*/
+.o_goods_nav{ height:31px; border-bottom:4px solid #0082E4; }
+.o_goods_nav a{ float:left; margin-left:10px; width:150px; height:30px; line-height:30px; background:#f6f7f6; color:#555; text-align:center; border-top:1px solid #f2f2f2; border-radius:6px 6px 0 0; border-right:1px solid #d9d9d9;}
+.o_goods_nav a:hover{ text-decoration:none;}
+/*错误提示*/
+
+div.error {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(255, 242, 242);
+    background-image: url("../images/onError.gif"/*tpa=http://www.bigdataobor.com/asset/images/onError.gif*/);
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    border-bottom-color: rgb(254, 188, 188);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: rgb(254, 188, 188);
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: rgb(254, 188, 188);
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+    border-top-color: rgb(254, 188, 188);
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: rgb(252, 82, 82);
+    float: left;
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 5px;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.o_goods_nav a.on{ background:#0082E4; color:#fff; border-right:1px solid #0082E4;}
+
+input#dstime{width: 110px;height: 20px;margin-top: 7px;}
+input#detime{width: 110px;height: 20px;margin-top: 7px;}
+.show_time{margin-top: 10px;}
+
