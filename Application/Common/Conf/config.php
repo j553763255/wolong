@@ -2,7 +2,7 @@
 
 return array(
     'DB_TYPE'   =>  'mysql',
-    'DB_HOST'   =>  '47.92.93.225   ',
+    'DB_HOST'   =>  '47.92.93.225',
     'DB_NAME'   =>  'wltf',//数据库名字
     'DB_USER'   =>  'admin',//数据库用户名
     'DB_PWD'    =>  'chinaWolong',//数据库密码

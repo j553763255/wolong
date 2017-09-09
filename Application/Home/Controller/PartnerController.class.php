@@ -13,8 +13,13 @@ class PartnerController extends Controller
 {
     public function index()
     {
+        //获取导航
         $menus = getMenus();
         $this->assign("menus",$menus);
+        //获取合作企业列表
+        $partnerBD = D("Partner");
+        $partners = $partnerBD->getPartners();
+        $this->assign("partners",$partners);
         $this->display();
     }
 }
